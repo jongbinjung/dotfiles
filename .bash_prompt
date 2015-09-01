@@ -1,0 +1,35 @@
+# double-line bash prompt with git info. looks something like:
+# ✔ user_name@system_name[current_location](current_branch)
+# $
+# requires: .bash_git
+if [ "$color_prompt" = yes ]; then
+    export PS1='$( \
+        if [ $? = 0 ]; then \
+            echo "\[\e[32m\]✔"; \
+        else \
+            echo "\[\e[31m\]✘"; \
+        fi \
+        ) \
+\[\e[00;37m\]\u@\
+\[\e[00;33m\]\h\
+\[\e[00;34m\][\[\e[04;34m\]\W\[\e[00;34m\]]\
+$(\
+if [[ \
+    $(git status 2>/dev/null | head -n2 | tail -n1) \
+    != "# Changes to be committed:" \
+    ]]; then \
+    echo "\[\e[31m\]"; \
+else \
+    echo "\[\e[33m\]"; \
+fi)$( # because new lines suck ... \
+if [[ \
+    $(git status 2> /dev/null | tail -n1) \
+    != "nothing to commit (working directory clean)" \
+    ]]; then \
+    echo "\[\e[33m\]"; \
+else \
+    echo "\[\e[32m\]"; \
+fi)$( # because new lines suck ... \
+__git_ps1 "(%s)\[\e[00m\]") \
+\n\[\e[01;34m\]$ \[\e[00;37m\]\
+'
