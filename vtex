@@ -1,6 +1,7 @@
 #######################################################
 # Function to link tex files to vim via server.
-# see vimrc ftplugin tex.vim for additional details
+# see vimrc ftplugin tex.vim for additional details and
+# http://debdeep777.blogspot.com/2015/01/vim-texlive-vim-latex-suite-zathura-pdf.html
 # setup to work with Zathura
 for i in "$@"; do
     if [[ ${i} == *.tex ]]; then
