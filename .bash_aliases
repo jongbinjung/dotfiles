@@ -36,5 +36,9 @@ alias count='wc -l < '
 alias remote='gnome-terminal --window-with-profile=Monokai'
 
 # impressive to impressive.py
-#alias impressive='impressive.py -T 0'
+alias impressive='impressive -T 0'
+
+# todo.sh w/ completion
+alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
+complete -F _todo td
 # }}}
