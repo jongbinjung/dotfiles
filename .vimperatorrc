@@ -1,0 +1,8 @@
+set toolbars=none,tabs
+set wildoption=auto
+
+noremap l gt
+noremap h gT
+
+set visualbell
+set showstatuslinks=2
