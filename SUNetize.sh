@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo dnf copr enable jsbillings/openafs
+sudo dnf copr enable jsbillings/openafs-kmod
 sudo dnf install krb5-libs krb5-workstation pam_krb5 \
     openafs-client openafs openafs-krb5
 
