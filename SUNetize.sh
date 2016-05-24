@@ -9,6 +9,10 @@ wget http://www.stanford.edu/dept/its/support/kerberos/dist/krb5.conf
 sudo mv /etc/krb5.conf /etc/krb5.conf.old
 sudo cp krb5.conf /etc/.
 
+
+# Set cell address for Stanford
+su -c "echo 'ir.stanford.edu' > /etc/openafs/ThisCell"
+
 # https://uit.stanford.edu/service/kerberos/install_redhat
 
 # The SSH client that comes with Red Hat (at least RHEL4 and later) supports
