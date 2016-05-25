@@ -5,7 +5,7 @@ sudo dnf install krb5-libs krb5-workstation pam_krb5 \
     openafs-client openafs openafs-krb5
 
 # Download conf
-wget http://www.stanford.edu/dept/its/support/kerberos/dist/krb5.conf
+wget -N http://web.stanford.edu/dept/its/support/kerberos/dist/krb5.conf
 sudo mv /etc/krb5.conf /etc/krb5.conf.old
 sudo cp krb5.conf /etc/.
 
