@@ -7,3 +7,6 @@ if(interactive()){
        options(browser = function(u) .C("nvimcom_msg_to_nvim",
                                         paste0('StartTxtBrowser("w3m", "', u, '")')))
 }
+
+# Only display two digits
+options(digits=2)
