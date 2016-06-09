@@ -1,0 +1,73 @@
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+# We have color support; assume it's compliant with Ecma-48
+# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+# a case would tend to support setf rather than setaf.)
+color_prompt=yes
+else
+color_prompt=
+fi
+
+if [ "$color_prompt" = yes ]; then
+    export PS1='$( \
+        if [ $? = 0 ]; then \
+            echo "\[\e[32m\]✔"; \
+        else \
+            echo "\[\e[31m\]✘"; \
+        fi \
+        ) \
+\[\e[00;31m\]\u\
+\[\e[00;32m\]@\
+\[\e[00;34m\]5harad.com\
+\[\e[00;32m\][\[\e[04;32m\]\W\[\e[00;32m\]]\
+$(\
+if [[ \
+    $(git status 2>/dev/null | head -n2 | tail -n1) \
+    != "# Changes to be committed:" \
+    ]]; then \
+    echo "\[\e[31m\]"; \
+else \
+    echo "\[\e[33m\]"; \
+fi)$( # because new lines suck ... \
+if [[ \
+    $(git status 2> /dev/null | tail -n1) \
+    != "nothing to commit (working directory clean)" \
+    ]]; then \
+    echo "\[\e[33m\]"; \
+else \
+    echo "\[\e[32m\]"; \
+fi)$( # because new lines suck ... \
+__git_ps1 "(%s)\[\e[00m\]") \
+\n\[\e[01;34m\]$ \[\e[00;37m\]\
+'
+
+    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto -h'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    #alias grep='grep --color=auto'
+    #alias fgrep='fgrep --color=auto'
+    #alias egrep='egrep --color=auto'
+fi
