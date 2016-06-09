@@ -1,0 +1,8 @@
+# todo txt
+https://extensions.gnome.org/extension/570/todotxt/
+
+# Dynamic top bar for transparency
+https://extensions.gnome.org/extension/885/dynamic-top-bar/
+
+# System stat monitor
+https://extensions.gnome.org/extension/120/system-monitor/
