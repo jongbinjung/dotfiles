@@ -26,9 +26,8 @@ alias echo='echo -e'
 # ipython should never auto-indent
 alias ipython='ipython --no-autoindent'
 
-<<<<<<< HEAD
 alias path='echo -e ${PATH//:/\\n}'
-=======
+
 # open boxcryptor
 alias boxcryptor='~/Boxcryptor/Boxcryptor_Portable.sh'
 
@@ -44,5 +43,4 @@ alias impressive='impressive -T 0'
 # todo.sh w/ completion
 alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
 complete -F _todo td
->>>>>>> c080d1a967e1b5cf0973213a4abc0501dba68183
 # }}}
