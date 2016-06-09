@@ -15,13 +15,15 @@ alias ..='cd ..'
 alias ...='cd .. && cd ..'
 # }}}
 # ls aliases {{{
-alias ll='ls -l'
+alias ll='ls -lv --group-directories-first'
 alias la='ll -A'
 alias l='ls -CF'
-alias lg='la | grep'
+alias lg='ls -la | grep'
 # }}}
 # Others {{{
 alias echo='echo -e'
 # ipython should never auto-indent
 alias ipython='ipython --no-autoindent'
+
+alias path='echo -e ${PATH//:/\\n}'
 # }}}
