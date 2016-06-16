@@ -1,5 +1,6 @@
 if(interactive()){
    # Suggested libraries:
+   library(colorout)
    library(setwidth)
 
    # Use text based web browser to navigate through R docs after help.start():
