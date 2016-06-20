@@ -1,6 +1,7 @@
 if(interactive()){
    # Suggested libraries:
    library(setwidth)
+   library(setwidth)
 
    # Use text based web browser to navigate through R docs after help.start():
    if(Sys.getenv("NVIMR_TMPDIR") != "")
