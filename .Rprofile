@@ -1,5 +1,7 @@
 if(interactive()){
    # Suggested libraries:
+   library(colorout)
+   library(setwidth)
    library(setwidth)
    library(colorout)
 
