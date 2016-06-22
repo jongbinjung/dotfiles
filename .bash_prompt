@@ -19,21 +19,27 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# g4d location
+#export G4PS='$(echo "$PWD" | sed -e '"'"'s:/google/src/cloud/${USER}/\([^/]*\)/:[\1]/:'"'"' -e '"'"'s:/google3/java/com/google:[J]:'"'"' -e '"'"'s:/google3/javatests/com/google:[JT]:'"'"' -e '"'"'s:/google3/blaze-bin:[B]:'"'"' -e '"'"'s:/.*/:/:'"'"')'
+export G4PS='$(echo "$PWD" | sed -e "s:/google/src/cloud/${USER}/\([^/]*\)/:(\1)/:" -e "s:/.*::")'
+
 # double-line bash prompt with git info. looks something like:
 # ✔ user_name@system_name[current_location](current_branch)
 # $
 # requires: .bash_git
+  #$(eval "echo \[\e[01;31m\]${G4PS}"); \
+#\[\e[00;34m\][\[\e[04;34m\]\W\[\e[00;34m\]]\
 if [ "$color_prompt" = yes ]; then
-    export PS1='$( \
-        if [ $? = 0 ]; then \
-            echo "\[\e[32m\]✔"; \
-        else \
-            echo "\[\e[31m\]✘"; \
-        fi \
-        ) \
+    export PS1='$(\
+      if [ $? = 0 ]; then \
+          echo "\[\e[32m\]✔"; \
+      else \
+          echo "\[\e[31m\]✘"; \
+      fi) \
 \[\e[00;37m\]\u@\
 \[\e[00;33m\]\h\
 \[\e[00;34m\][\[\e[04;34m\]\W\[\e[00;34m\]]\
+\[\e[00;35m\]$(eval "echo ${G4PS}")\[\e[00;34m\]\
 $(\
 if [[ \
     $(git status 2>/dev/null | head -n2 | tail -n1) \
