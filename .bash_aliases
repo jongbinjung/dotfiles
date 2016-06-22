@@ -14,6 +14,26 @@ fi
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
 alias open='xdg-open'
+
+function bd {
+  local OPTIND opt cmd p arg
+  cmd="cd"
+  p="$(pwd)/"
+  arg="/$1/"
+
+  while getopts ":p:" opt; do
+    case "$opt" in
+      p) cmd="pushd"; arg="/$OPTARG/";;
+      :) echo "Option -$OPTARG requires an argument!"; return;;
+      \?) echo "Invalid option: -$OPTARG"; return;;
+    esac
+  done
+
+  if [[ "$p" == *"$arg"* ]]; then
+    echo "${p%$arg*}$arg"
+    eval "$cmd ${p%$arg*}$arg"
+  fi
+}
 # }}}
 # ls aliases {{{
 alias ll='ls -lv --group-directories-first'
