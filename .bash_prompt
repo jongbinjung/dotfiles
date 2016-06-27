@@ -20,9 +20,8 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 # g4d location
-#export G4PS='$(echo "$PWD" | sed -e '"'"'s:/google/src/cloud/${USER}/\([^/]*\)/:[\1]/:'"'"' -e '"'"'s:/google3/java/com/google:[J]:'"'"' -e '"'"'s:/google3/javatests/com/google:[JT]:'"'"' -e '"'"'s:/google3/blaze-bin:[B]:'"'"' -e '"'"'s:/.*/:/:'"'"')'
-export G4PS='$(echo "$PWD" | sed -e "s:/google/src/cloud/${USER}/\([^/]*\)/:(\1/:" \
-  -e "s:/google3/experimental/:|E/:" -e "s:/.*:):")'
+export G4PS='$(echo "$PWD" | sed -e "s:/google/src/cloud/${USER}/\([^/]*\)/:(\1)/:" \
+  -e "s:/google3/experimental/:E/:" -e "s:/.*::")'
 
 # double-line bash prompt with git info. looks something like:
 # ✔ user_name@system_name[current_location](current_branch)

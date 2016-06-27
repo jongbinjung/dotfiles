@@ -64,3 +64,9 @@ alias impressive='impressive -T 0'
 alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
 complete -F _todo td
 # }}}
+# fileutil aliases {{{
+alias fll='fileutil ls -l -h'
+alias fla='fll -a'
+alias fcp='fileutil cp'
+alias fcat='fileutil cat'
+# }}}
