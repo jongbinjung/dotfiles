@@ -9,7 +9,10 @@ if(interactive()){
    if(Sys.getenv("NVIMR_TMPDIR") != "")
        options(browser = function(u) .C("nvimcom_msg_to_nvim",
                                         paste0('StartTxtBrowser("w3m", "', u, '")')))
+
+   # Work in tmp
+   setwd('~/tmp')
 }
 
-# Only display two digits
-options(digits=2)
+# Only display four digits
+options(digits=4)
