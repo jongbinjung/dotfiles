@@ -2,12 +2,12 @@
 
 # set colors {{{
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto --group-directories-first -h'
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  alias ls='ls --color=auto --group-directories-first -h'
 
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
+  alias grep='grep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias egrep='egrep --color=auto'
 fi
 # }}}
 # Navigation aliases {{{
@@ -16,6 +16,7 @@ alias ...='cd .. && cd ..'
 alias open='xdg-open'
 
 function bd {
+  # navigate to any parent directory by name
   local OPTIND opt cmd p arg
   cmd="cd"
   p="$(pwd)/"
