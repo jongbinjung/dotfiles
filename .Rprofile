@@ -11,3 +11,10 @@ if(interactive()){
 
 # Only display four digits
 options(digits=4)
+
+# Set default repo to CA
+local({
+  r <- getOption("repos")
+  r["CRAN"] <- "https://cran.cnr.berkeley.edu/"
+  options(repos = r)
+})
