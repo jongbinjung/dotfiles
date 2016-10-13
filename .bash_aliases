@@ -49,22 +49,19 @@ alias ipython='ipython --no-autoindent'
 
 alias path='echo -e ${PATH//:/\\n}'
 
-# open boxcryptor
-alias boxcryptor='~/Boxcryptor/Boxcryptor_Portable.sh'
-
 # count lines of file
 alias count='wc -l < '
 
-# ssh in new window with Monokai
-alias remote='gnome-terminal --window-with-profile=Monokai'
-
 # impressive to impressive.py
-alias impressive='impressive -T 0'
+alias impressive='impressive -ff -T 0'
 
 # todo.sh w/ completion
 alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
 complete -F _todo td
 # }}}
+# Remote connections {{{
+alias soal='ssh soal-cluster.stanford.edu'
+#}}}
 # fileutil aliases {{{
 alias fll='fileutil ls -l -h'
 alias fla='fll -a'
