@@ -53,7 +53,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias count='wc -l < '
 
 # impressive to impressive.py
-alias impressive='impressive -ff -T 0'
+alias impressive='impressive -T 0'
 
 # todo.sh w/ completion
 alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
