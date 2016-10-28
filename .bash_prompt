@@ -21,7 +21,7 @@ fi
 
 # double-line bash prompt with git info. looks something like:
 # ✔ user_name@system_name[current_location](current_branch)
-# $
+# $_
 # requires: .bash_git
 if [ "$color_prompt" = yes ]; then
     export PS1='$(\
@@ -51,7 +51,7 @@ else \
     echo "\[\e[32m\]"; \
 fi)$( # because new lines suck ... \
 __git_ps1 "(%s)\[\e[00m\]") \
-\n\[\e[01;34m\]$ \[\e[00;37m\]\
+\n\[\e[01;34m\]$ \[\e[0m\]\
 '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
