@@ -42,6 +42,11 @@ alias la='ll -A'
 alias l='ls -CF'
 alias lg='ls -la | grep'
 # }}}
+# git quick aliases {{{
+alias gj='git pull'
+alias gk='git push'
+alias gd='git diff'
+# }}}
 # Others {{{
 alias echo='echo -e'
 # ipython should never auto-indent
