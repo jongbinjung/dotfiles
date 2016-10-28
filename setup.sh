@@ -54,4 +54,10 @@ do
   esac
 done
 
+if [[ ! -d "$HOME/.tmux/plugins/tpm" ]]; then
+  git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+  echo "Installed tmux plugin manager."
+  echo "Do prefix + I in tmux to initialize tmux plugins."
+fi
+
 unset BASE_DIR
