@@ -39,18 +39,27 @@ cp $HOME/.bashrc.bak $HOME/.bashrc
 cat $HOME/.bashrc | sed -e '/# Generated from jongbin dotfile/d' > $HOME/.bashrc.mod
 
 # Prepend sourcing headers
-cat $BASE_DIR/.header_bashrc $HOME/.bashrc.mod > $HOME/.bashrc
+cat $BASE_DIR/.header_bashrc $HOME/.bashrc.mod $BASE_DIR/.footer_bashrc > \
+  $HOME/.bashrc
 rm -f $HOME/.bashrc.mod
 
-echo "Copy bash_completion.d? (Requires root)"
+echo "Copy bash_completion.d to global /etc/bash_completion.d? (Requires root)"
 select yn in "Yes" "No"
 do
   case $yn in
     Yes )
+      echo "Copying bash_completion.d to /etc/bash_completion.d"
       sudo cp $BASE_DIR/bash_completion.d/* /etc/bash_completion.d/
       break ;;
     No)
-      exit ;;
+      echo "Creating local ~/.bash_completion"
+      if [ ! -f $HOME/.bash_completion ];
+      then
+        cat $BASE_DIR/bash_completion.d/* > $HOME/.bash_completion
+      else
+        echo "Local ~/.bash_completion already exists. Please check contents."
+      fi
+      break ;;
   esac
 done
 
