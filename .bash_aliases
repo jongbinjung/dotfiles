@@ -63,6 +63,9 @@ alias impressive='impressive -T 0'
 # todo.sh w/ completion
 alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
 complete -F _todo td
+
+# matlab command line
+alias matlabc='matlab -nodisplay -nodesktop -r'
 # }}}
 # Remote connections {{{
 alias soal='ssh soal-cluster.stanford.edu'
