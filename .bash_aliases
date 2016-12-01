@@ -65,7 +65,7 @@ alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
 complete -F _todo td
 
 # matlab command line
-alias matlabc='matlab -nodisplay -nodesktop -r'
+alias matlabc='matlab -nodisplay -nodesktop'
 # }}}
 # Remote connections {{{
 alias soal='ssh soal-cluster.stanford.edu'
