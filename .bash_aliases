@@ -2,7 +2,7 @@
 
 # set colors {{{
 if [ -x /usr/bin/dircolors ]; then
-  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  test -r $HOME/.dir_colors && eval "$(dircolors -b $HOME/.dir_colors)" || eval "$(dircolors -b)"
   alias ls='ls --color=auto --group-directories-first -h'
 
   alias grep='grep --color=auto'
