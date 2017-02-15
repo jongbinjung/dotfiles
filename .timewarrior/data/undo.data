@@ -1,0 +1,520 @@
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T022347Z","tags":["Read A Cognitive Interpretation of Data Analysis","thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170203T022347Z","tags":["Read A Cognitive Interpretation of Data Analysis","thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T022347Z","end":"20170203T022359Z","tags":["Read A Cognitive Interpretation of Data Analysis","thesis"]}
+txn:
+  type: config
+  before: 
+  after: exclusions.days.2017_01_01 = off
+txn:
+  type: config
+  before: 
+  after: exclusions.sunday = >0:00
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T024214Z","tags":["Read A Cognitive Interpretation of Data Analysis","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170203T024214Z","tags":["Read A Cognitive Interpretation of Data Analysis","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T024214Z","end":"20170203T024238Z","tags":["Read A Cognitive Interpretation of Data Analysis","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T173652Z","tags":["Plot relationship between features and leaks","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170203T173652Z","tags":["Plot relationship between features and leaks","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T173652Z","end":"20170203T204303Z","tags":["Plot relationship between features and leaks","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T211454Z","tags":["Fill form for Google Internship","proj:other"]}
+txn:
+  type: interval
+  before: {"start":"20170203T211454Z","tags":["Fill form for Google Internship","proj:other"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T211454Z","end":"20170203T211928Z","tags":["Fill form for Google Internship","proj:other"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T235716Z","tags":["Fill form for Google Internship","proj:other"]}
+txn:
+  type: interval
+  before: {"start":"20170203T235716Z","tags":["Fill form for Google Internship","proj:other"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170203T235716Z","end":"20170204T000810Z","tags":["Fill form for Google Internship","proj:other"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170205T033742Z","tags":["Update lecture code examples","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170205T033742Z","tags":["Update lecture code examples","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170205T033742Z","end":"20170205T040620Z","tags":["Update lecture code examples","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T192021Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170206T192021Z","tags":["Write lecture code for week 6","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T192021Z","end":"20170206T200038Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T211809Z","tags":["Submit CA application"]}
+txn:
+  type: interval
+  before: {"start":"20170206T211809Z","tags":["Submit CA application"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T211809Z","end":"20170206T212146Z","tags":["Submit CA application"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T230408Z","tags":["Email"]}
+txn:
+  type: interval
+  before: {"start":"20170206T230408Z","tags":["Email"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T230408Z","end":"20170206T231536Z","tags":["Email"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T231555Z","tags":["Run out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170206T231555Z","tags":["Run out-of-sample SLIM","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T231555Z","end":"20170206T233225Z","tags":["Run out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T233535Z","tags":["Run out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170206T233535Z","tags":["Run out-of-sample SLIM","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170206T233535Z","end":"20170207T005255Z","tags":["Run out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T010000Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170207T010000Z","tags":["Write lecture code for week 6","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T010000Z","end":"20170207T014522Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T180949Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170207T180949Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T180949Z","end":"20170207T182054Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T182340Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170207T182340Z","tags":["Write lecture code for week 6","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T182340Z","end":"20170207T182721Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T182909Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170207T182909Z","tags":["Write lecture code for week 6","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T182909Z","end":"20170207T184425Z","tags":["Write lecture code for week 6","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T200529Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170207T200529Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T200529Z","end":"20170207T202158Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T205837Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170207T205837Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T205837Z","end":"20170207T211049Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T211311Z","tags":["Clean features generation pipeline","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170207T211311Z","tags":["Clean features generation pipeline","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170207T211311Z","end":"20170208T011931Z","tags":["Clean features generation pipeline","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T015130Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170208T015130Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T015130Z","end":"20170208T180104Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170208T015130Z","end":"20170208T180104Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T180224Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170208T180224Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T180224Z","end":"20170208T185417Z","tags":["Generate SLIM on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T195218Z","tags":["Read through Rudin SLIM paper","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170208T195218Z","tags":["Read through Rudin SLIM paper","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T195218Z","end":"20170208T195833Z","tags":["Read through Rudin SLIM paper","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T212429Z","tags":["Read through Rudin SLIM paper","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170208T212429Z","tags":["Read through Rudin SLIM paper","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T212429Z","end":"20170208T214145Z","tags":["Read through Rudin SLIM paper","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T214354Z","tags":["Setup editorconfig for projects","proj:tooling"]}
+txn:
+  type: interval
+  before: {"start":"20170208T214354Z","tags":["Setup editorconfig for projects","proj:tooling"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T214354Z","end":"20170208T221045Z","tags":["Setup editorconfig for projects","proj:tooling"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T221125Z","tags":["Google analytics for jongbin.com","blog","proj:personal","webadmin"]}
+txn:
+  type: interval
+  before: {"start":"20170208T221125Z","tags":["Google analytics for jongbin.com","blog","proj:personal","webadmin"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T221125Z","end":"20170208T222349Z","tags":["Google analytics for jongbin.com","blog","proj:personal","webadmin"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T222431Z","tags":["Gelman and Hill","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170208T222431Z","tags":["Gelman and Hill","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T222431Z","end":"20170208T224052Z","tags":["Gelman and Hill","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T230229Z","tags":["Organize the works of Gigerenzer","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170208T230229Z","tags":["Organize the works of Gigerenzer","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170208T230229Z","end":"20170209T001556Z","tags":["Organize the works of Gigerenzer","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T164215Z","tags":["Read up on simple rules","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170209T164215Z","tags":["Read up on simple rules","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T164215Z","end":"20170209T184546Z","tags":["Read up on simple rules","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T184629Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170209T184629Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T184629Z","end":"20170209T200008Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T203318Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170209T203318Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T203318Z","end":"20170209T213326Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T222138Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170209T222138Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170209T222138Z","end":"20170209T224004Z","tags":["Work on single datasets for SLIM AUC etc","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T183444Z","tags":["Clean features generation pipeline","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170210T183444Z","tags":["Clean features generation pipeline","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T183444Z","end":"20170210T194557Z","tags":["Clean features generation pipeline","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T201456Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170210T201456Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T201456Z","end":"20170210T201602Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T203943Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170210T203943Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T203943Z","end":"20170210T221655Z","tags":["Compile and aggregate results from out-of-sample SLIM","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T221655Z","tags":["Write-up column for related work simple rules and bail work causal inference","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170210T221655Z","tags":["Write-up column for related work simple rules and bail work causal inference","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T221655Z","end":"20170210T225800Z","tags":["Write-up column for related work simple rules and bail work causal inference","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170210T221655Z","tags":["Write-up column for related work simple rules and bail work causal inference","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170210T221655Z","end":"20170210T232858Z","tags":["Write-up column for related work simple rules and bail work causal inference","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170213T211958Z","tags":["Fix plots text sizes and margins","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170213T211958Z","tags":["Fix plots text sizes and margins","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170213T211958Z","end":"20170213T224231Z","tags":["Fix plots text sizes and margins","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170213T231809Z","tags":["Write lecture code for week 7","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170213T231809Z","tags":["Write lecture code for week 7","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170213T231809Z","end":"20170213T231841Z","tags":["Write lecture code for week 7","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170213T231841Z","tags":["Solution for hw5","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170213T231841Z","tags":["Solution for hw5","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170213T231841Z","end":"20170213T232845Z","tags":["Solution for hw5","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T181147Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170214T181147Z","tags":["Initial model for strokes","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T181147Z","end":"20170214T181752Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T181801Z","tags":["Solution for hw5","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170214T181801Z","tags":["Solution for hw5","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T181801Z","end":"20170214T182636Z","tags":["Solution for hw5","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T182636Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170214T182636Z","tags":["Initial model for strokes","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T182636Z","end":"20170214T182644Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170214T182636Z","tags":["Initial model for strokes","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T182636Z","end":"20170214T185442Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T213933Z","tags":["Check for discontinuity to determine amplitude cutoff","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170214T213933Z","tags":["Check for discontinuity to determine amplitude cutoff","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170214T213933Z","end":"20170215T003542Z","tags":["Check for discontinuity to determine amplitude cutoff","proj:gasleaks"]}

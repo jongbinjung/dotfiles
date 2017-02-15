@@ -1,0 +1,40 @@
+inc 20170203T022347Z - 20170203T022359Z # "Read A Cognitive Interpretation of Data Analysis" thesis
+inc 20170203T024214Z - 20170203T024238Z # "Read A Cognitive Interpretation of Data Analysis" proj:thesis
+inc 20170203T173652Z - 20170203T204303Z # "Plot relationship between features and leaks" proj:gasleaks
+inc 20170203T211454Z - 20170203T211928Z # "Fill form for Google Internship" proj:other
+inc 20170203T235716Z - 20170204T000810Z # "Fill form for Google Internship" proj:other
+inc 20170205T033742Z - 20170205T040620Z # "Update lecture code examples" proj:teaching
+inc 20170206T192021Z - 20170206T200038Z # "Write lecture code for week 6" proj:teaching
+inc 20170206T211809Z - 20170206T212146Z # "Submit CA application"
+inc 20170206T230408Z - 20170206T231536Z # Email
+inc 20170206T231555Z - 20170206T233225Z # "Run out-of-sample SLIM" proj:heuristics
+inc 20170206T233535Z - 20170207T005255Z # "Run out-of-sample SLIM" proj:heuristics
+inc 20170207T010000Z - 20170207T014522Z # "Write lecture code for week 6" proj:teaching
+inc 20170207T180949Z - 20170207T182054Z # "Compile and aggregate results from out-of-sample SLIM" proj:heuristics
+inc 20170207T182340Z - 20170207T182721Z # "Write lecture code for week 6" proj:teaching
+inc 20170207T182909Z - 20170207T184425Z # "Write lecture code for week 6" proj:teaching
+inc 20170207T200529Z - 20170207T202158Z # "Generate SLIM on DANY" proj:heuristics
+inc 20170207T205837Z - 20170207T211049Z # "Generate SLIM on DANY" proj:heuristics
+inc 20170207T211311Z - 20170208T011931Z # "Clean features generation pipeline" proj:gasleaks
+inc 20170208T180224Z - 20170208T185417Z # "Generate SLIM on DANY" proj:heuristics
+inc 20170208T195218Z - 20170208T195833Z # "Read through Rudin SLIM paper" proj:heuristics
+inc 20170208T212429Z - 20170208T214145Z # "Read through Rudin SLIM paper" proj:heuristics
+inc 20170208T214354Z - 20170208T221045Z # "Setup editorconfig for projects" proj:tooling
+inc 20170208T221125Z - 20170208T222349Z # "Google analytics for jongbin.com" blog proj:personal webadmin
+inc 20170208T222431Z - 20170208T224052Z # "Gelman and Hill" proj:reading
+inc 20170208T230229Z - 20170209T001556Z # "Organize the works of Gigerenzer" proj:thesis
+inc 20170209T164215Z - 20170209T184546Z # "Read up on simple rules" proj:heuristics
+inc 20170209T184629Z - 20170209T200008Z # "Work on single datasets for SLIM AUC etc" proj:heuristics
+inc 20170209T203318Z - 20170209T213326Z # "Work on single datasets for SLIM AUC etc" proj:heuristics
+inc 20170209T222138Z - 20170209T224004Z # "Work on single datasets for SLIM AUC etc" proj:heuristics
+inc 20170210T183444Z - 20170210T194557Z # "Clean features generation pipeline" proj:gasleaks
+inc 20170210T201456Z - 20170210T201602Z # "Compile and aggregate results from out-of-sample SLIM" proj:heuristics
+inc 20170210T203943Z - 20170210T221655Z # "Compile and aggregate results from out-of-sample SLIM" proj:heuristics
+inc 20170210T221655Z - 20170210T232858Z # "Write-up column for related work simple rules and bail work causal inference" proj:heuristics
+inc 20170213T211958Z - 20170213T224231Z # "Fix plots text sizes and margins" proj:heuristics
+inc 20170213T231809Z - 20170213T231841Z # "Write lecture code for week 7" proj:teaching
+inc 20170213T231841Z - 20170213T232845Z # "Solution for hw5" proj:teaching
+inc 20170214T181147Z - 20170214T181752Z # "Initial model for strokes" proj:thesis
+inc 20170214T181801Z - 20170214T182636Z # "Solution for hw5" proj:teaching
+inc 20170214T182636Z - 20170214T185442Z # "Initial model for strokes" proj:thesis
+inc 20170214T213933Z - 20170215T003542Z # "Check for discontinuity to determine amplitude cutoff" proj:gasleaks
