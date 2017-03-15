@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Return from "Stop" (Ctrl + S)
-stty -ixany
+stty ixany
 
 # Use up-arrow to search history
 bind '"\e[A": history-search-backward'
