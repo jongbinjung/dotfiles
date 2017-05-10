@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-export PATH=$HOME/.local/bin:$HOME/repos/scripts:$PATH
+PATH=$GOPATH/bin:$HOME/bin:$HOME/.local/bin:$HOME/repos/scripts:$PATH
+export PATH
 export MYGO=$GOPATH/src/github.com/jongbinjung
