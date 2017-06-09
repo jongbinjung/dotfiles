@@ -12,6 +12,8 @@ do
       ln -sf $BASE_DIR/.bash_helpers $HOME/.bash_helpers
       ln -sf $BASE_DIR/.bash_paths $HOME/.bash_paths
       ln -sf $BASE_DIR/.taskrc $HOME/.taskrc
+      ln -sf $BASE_DIR/.Xmodmap $HOME/.Xmodmap
+      ln -sf $BASE_DIR/.Xresources $HOME/.Xresources
       break ;;
     No)
       exit ;;
