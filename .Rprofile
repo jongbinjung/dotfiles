@@ -1,3 +1,13 @@
+# Only display four digits
+options(digits=4)
+
+# Set default repo to CA
+local({
+  r <- getOption("repos")
+  r["CRAN"] <- "https://cran.cnr.berkeley.edu/"
+  options(repos = r)
+})
+
 if(interactive()){
    # Suggested libraries:
    library(colorout)
@@ -9,12 +19,3 @@ if(interactive()){
                                         paste0('StartTxtBrowser("w3m", "', u, '")')))
 }
 
-# Only display four digits
-options(digits=4)
-
-# Set default repo to CA
-local({
-  r <- getOption("repos")
-  r["CRAN"] <- "https://cran.cnr.berkeley.edu/"
-  options(repos = r)
-})
