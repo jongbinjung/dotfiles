@@ -1,0 +1,12 @@
+[Unit]
+Description=i3lock on suspend
+Before=sleep.target
+
+[Service]
+User=jongbin
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=/home/jongbin/repos/scripts/lock.sh
+
+[Install]
+WantedBy=sleep.target
