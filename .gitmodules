@@ -1,0 +1,3 @@
+[submodule "plymouth-theme-jijicat"]
+	path = plymouth-theme-jijicat
+	url = git@github.com:Cynthetika/plymouth-theme-jijicat.git
