@@ -518,3 +518,1803 @@ txn:
   type: interval
   before: 
   after: {"start":"20170214T213933Z","end":"20170215T003542Z","tags":["Check for discontinuity to determine amplitude cutoff","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170215T200038Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170215T200038Z","tags":["Initial model for strokes","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170215T200038Z","end":"20170215T223655Z","tags":["Initial model for strokes","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170215T232306Z","tags":["Defining Insight for Visual Analytics","paper","proj:reading","visualization"]}
+txn:
+  type: interval
+  before: {"start":"20170215T232306Z","tags":["Defining Insight for Visual Analytics","paper","proj:reading","visualization"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170215T232306Z","end":"20170215T233457Z","tags":["Defining Insight for Visual Analytics","paper","proj:reading","visualization"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T182451Z","tags":["Update KDD submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170216T182451Z","tags":["Update KDD submission","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T182451Z","end":"20170216T184227Z","tags":["Update KDD submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T191523Z","tags":["Update KDD submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170216T191523Z","tags":["Update KDD submission","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T191523Z","end":"20170216T195603Z","tags":["Update KDD submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T200203Z","tags":["Update KDD submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170216T200203Z","tags":["Update KDD submission","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T200203Z","end":"20170216T200521Z","tags":["Update KDD submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T201040Z","tags":["Update arXiv submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170216T201040Z","tags":["Update arXiv submission","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T201040Z","end":"20170216T202226Z","tags":["Update arXiv submission","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T202233Z","tags":["Submit to SSRN","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170216T202233Z","tags":["Submit to SSRN","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170216T202233Z","end":"20170216T204122Z","tags":["Submit to SSRN","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T182012Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170221T182012Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T182012Z","end":"20170221T185436Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T192231Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170221T192231Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T192231Z","end":"20170221T192915Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T193847Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170221T193847Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T193847Z","end":"20170221T200341Z","tags":["Read Hohnhold on longterm focus","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T204731Z","tags":["Write lecture code for week 8","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170221T204731Z","tags":["Write lecture code for week 8","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T204731Z","end":"20170221T205413Z","tags":["Write lecture code for week 8","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T205809Z","tags":["Respond to meeting emails","proj:heurstics"]}
+txn:
+  type: interval
+  before: {"start":"20170221T205809Z","tags":["Respond to meeting emails","proj:heurstics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T205809Z","end":"20170221T210644Z","tags":["Respond to meeting emails","proj:heurstics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T211104Z","tags":["Kleinberg paper","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170221T211104Z","tags":["Kleinberg paper","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T211104Z","end":"20170221T215948Z","tags":["Kleinberg paper","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T224933Z","tags":["Investigate more features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170221T224933Z","tags":["Investigate more features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170221T224933Z","end":"20170222T002728Z","tags":["Investigate more features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T002737Z","tags":["Kleinberg paper","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170222T002737Z","tags":["Kleinberg paper","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T002737Z","end":"20170222T005818Z","tags":["Kleinberg paper","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T005837Z","tags":["Schedule meeting with Ron","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170222T005837Z","tags":["Schedule meeting with Ron","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T005837Z","end":"20170222T011003Z","tags":["Schedule meeting with Ron","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T224801Z","tags":["Gelman on type S and type M errors","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170222T224801Z","tags":["Gelman on type S and type M errors","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T224801Z","end":"20170222T225741Z","tags":["Gelman on type S and type M errors","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T230821Z","tags":["Add wind_speed x ch4","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170222T230821Z","tags":["Add wind_speed x ch4","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T230821Z","end":"20170222T231008Z","tags":["Add wind_speed x ch4","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T231011Z","tags":["Gelman on type S and type M errors","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170222T231011Z","tags":["Gelman on type S and type M errors","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170222T231011Z","end":"20170222T235005Z","tags":["Gelman on type S and type M errors","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170223T013927Z","tags":["Explore partial pooling/heirarchical modelling for multiple passes","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170223T013927Z","tags":["Explore partial pooling/heirarchical modelling for multiple passes","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170223T013927Z","end":"20170223T020904Z","tags":["Explore partial pooling/heirarchical modelling for multiple passes","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170223T212106Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170223T212106Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170223T212106Z","end":"20170223T213544Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170224T190435Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170224T190435Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170224T190435Z","end":"20170224T190439Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170224T190441Z","tags":["Write methodology paragraph for Spectrum Grant","proj:medical"]}
+txn:
+  type: interval
+  before: {"start":"20170224T190441Z","tags":["Write methodology paragraph for Spectrum Grant","proj:medical"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170224T190441Z","end":"20170224T195505Z","tags":["Write methodology paragraph for Spectrum Grant","proj:medical"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170224T195638Z","tags":["Investigate more features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170224T195638Z","tags":["Investigate more features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170224T195638Z","end":"20170224T214152Z","tags":["Investigate more features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170227T194754Z","tags":["Prep for Google interview","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170227T194754Z","tags":["Prep for Google interview","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170227T194754Z","end":"20170227T213101Z","tags":["Prep for Google interview","proj:personal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170227T213101Z","tags":["Investigate more features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170227T213101Z","tags":["Investigate more features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170227T213101Z","end":"20170227T230103Z","tags":["Investigate more features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170227T194754Z","end":"20170227T213101Z","tags":["Prep for Google interview","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170228T215321Z","tags":["Check updated performance with full data","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170228T215321Z","tags":["Check updated performance with full data","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170228T215321Z","end":"20170228T222743Z","tags":["Check updated performance with full data","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170228T223737Z","tags":["Collect readings for data analysis","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170228T223737Z","tags":["Collect readings for data analysis","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170228T223737Z","end":"20170228T223741Z","tags":["Collect readings for data analysis","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170228T223744Z","tags":["Check updated performance with full data","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170228T223744Z","tags":["Check updated performance with full data","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170228T223744Z","end":"20170301T004118Z","tags":["Check updated performance with full data","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170301T201711Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170301T201711Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170301T201711Z","end":"20170301T210253Z","tags":["Go through stroke papers via Prasha","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170301T214121Z","tags":["Draft initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170301T214121Z","tags":["Draft initial tree","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170301T214121Z","end":"20170301T232559Z","tags":["Draft initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T051011Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170302T051011Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T051011Z","end":"20170302T181952Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170302T051011Z","end":"20170302T181952Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T204151Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170302T204151Z","tags":["Review Ustun, Rudin","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T204151Z","end":"20170302T211613Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T235419Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170302T235419Z","tags":["Review Ustun, Rudin","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T235419Z","end":"20170303T051449Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170302T235419Z","end":"20170303T051449Z","tags":["Review Ustun, Rudin","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170302T235419Z","end":"20170303T001449Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T052214Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170303T052214Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T052214Z","end":"20170303T065330Z","tags":["Add refreshing for Stanford 2FA extension","proj:personal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T203623Z","tags":["BDA","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170303T203623Z","tags":["BDA","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T203623Z","end":"20170303T205800Z","tags":["BDA","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T220504Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170303T220504Z","tags":["Review Ustun, Rudin","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T220504Z","end":"20170303T230536Z","tags":["Review Ustun, Rudin","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T231424Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170303T231424Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170303T231424Z","end":"20170304T000520Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170304T002143Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170304T002143Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170304T002143Z","end":"20170304T014841Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170307T211707Z","tags":["Generate predictions for individual measures","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170307T211707Z","tags":["Generate predictions for individual measures","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170307T211707Z","end":"20170308T011751Z","tags":["Generate predictions for individual measures","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T180858Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170308T180858Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T180858Z","end":"20170308T182654Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T202359Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170308T202359Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T202359Z","end":"20170308T213919Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T214905Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170308T214905Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T214905Z","end":"20170308T222104Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T225037Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170308T225037Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T225037Z","end":"20170308T225642Z","tags":["Assess probability distributions for initial tree","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T225939Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170308T225939Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T225939Z","end":"20170308T234517Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T234539Z","tags":["Setup Nvim R plugin","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170308T234539Z","tags":["Setup Nvim R plugin","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T234539Z","end":"20170308T235154Z","tags":["Setup Nvim R plugin","proj:personal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T235156Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170308T235156Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170308T235156Z","end":"20170309T000303Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T000306Z","tags":["Setup Nvim R plugin","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170309T000306Z","tags":["Setup Nvim R plugin","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T000306Z","end":"20170309T010124Z","tags":["Setup Nvim R plugin","proj:personal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T010133Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170309T010133Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T010133Z","end":"20170309T012748Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T020548Z","tags":["The Circle","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170309T020548Z","tags":["The Circle","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T020548Z","end":"20170309T023424Z","tags":["The Circle","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T201106Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170309T201106Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T201106Z","end":"20170309T205452Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T225930Z","tags":["Simple Rules","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170309T225930Z","tags":["Simple Rules","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170309T225930Z","end":"20170310T003600Z","tags":["Simple Rules","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170310T004528Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170310T004528Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170310T004528Z","end":"20170310T012101Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170310T191628Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170310T191628Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170310T191628Z","end":"20170310T210659Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170310T214630Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170310T214630Z","tags":["Generate peak area features","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170310T214630Z","end":"20170310T234524Z","tags":["Generate peak area features","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170314T192235Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170314T192235Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170314T192235Z","end":"20170314T192441Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170314T192447Z","tags":["Review HBR article","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170314T192447Z","tags":["Review HBR article","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170314T192447Z","end":"20170314T192751Z","tags":["Review HBR article","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170314T194404Z","tags":["Review HBR article","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170314T194404Z","tags":["Review HBR article","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170314T194404Z","end":"20170314T202016Z","tags":["Review HBR article","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T170840Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170315T170840Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T170840Z","end":"20170315T175615Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T181021Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170315T181021Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T181021Z","end":"20170315T192342Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T193033Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170315T193033Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T193033Z","end":"20170315T222300Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T222448Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170315T222448Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170315T222448Z","end":"20170315T233716Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170316T195001Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170316T195001Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170316T195001Z","end":"20170316T200040Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170316T230656Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170316T230656Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170316T230656Z","end":"20170317T000450Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T000450Z","tags":["Email group comments","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170317T000450Z","tags":["Email group comments","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T000450Z","end":"20170317T002853Z","tags":["Email group comments","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T035517Z","tags":["Extend menu items to SKA extension","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170317T035517Z","tags":["Extend menu items to SKA extension","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T035517Z","end":"20170317T042551Z","tags":["Extend menu items to SKA extension","proj:personal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T042559Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170317T042559Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T042559Z","end":"20170317T063156Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T164137Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170317T164137Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T164137Z","end":"20170317T174658Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T204523Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170317T204523Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170317T204523Z","end":"20170317T220126Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170318T043047Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170318T043047Z","tags":["Flesh out model details","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170318T043047Z","end":"20170318T062247Z","tags":["Flesh out model details","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170322T050551Z","tags":["LPM for DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170322T050551Z","tags":["LPM for DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170322T050551Z","end":"20170322T054724Z","tags":["LPM for DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170327T170429Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170327T170429Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170327T170429Z","end":"20170327T183300Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170327T190152Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170327T190152Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170327T190152Z","end":"20170327T194755Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T174504Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170328T174504Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T174504Z","end":"20170328T193327Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T200058Z","tags":["Update arXiv to threshold 10","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170328T200058Z","tags":["Update arXiv to threshold 10","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T200058Z","end":"20170328T215057Z","tags":["Update arXiv to threshold 10","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T220035Z","tags":["Update arXiv to threshold 10","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170328T220035Z","tags":["Update arXiv to threshold 10","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T220035Z","end":"20170328T220403Z","tags":["Update arXiv to threshold 10","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T220456Z","tags":["Investigate gender distribution for different features","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170328T220456Z","tags":["Investigate gender distribution for different features","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T220456Z","end":"20170328T231035Z","tags":["Investigate gender distribution for different features","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T233815Z","tags":["Test consistency and uniform standards","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170328T233815Z","tags":["Test consistency and uniform standards","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170328T233815Z","end":"20170329T003526Z","tags":["Test consistency and uniform standards","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170329T033839Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170329T033839Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170329T033839Z","end":"20170329T055937Z","tags":["Figure out probability distribution estimation","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T040035Z","tags":["Generate heuristic with race","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170330T040035Z","tags":["Generate heuristic with race","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T040035Z","end":"20170330T052839Z","tags":["Generate heuristic with race","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T053454Z","tags":["Sign up for TRUVEN","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170330T053454Z","tags":["Sign up for TRUVEN","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T053454Z","end":"20170330T064447Z","tags":["Sign up for TRUVEN","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T182417Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170330T182417Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T182417Z","end":"20170330T193058Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T203815Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170330T203815Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170330T203815Z","end":"20170330T215651Z","tags":["Cluster raw measures to generate indications","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170403T174047Z","tags":["Sign up for TRUVEN","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170403T174047Z","tags":["Sign up for TRUVEN","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170403T174047Z","end":"20170403T181634Z","tags":["Sign up for TRUVEN","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170405T032838Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170405T032838Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170405T032838Z","end":"20170405T040604Z","tags":["Organize thought on Value of Analysis/Alternative","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170411T185300Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170411T185300Z","tags":["Prep DAWG","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170411T185300Z","end":"20170411T192114Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170411T213941Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170411T213941Z","tags":["Prep DAWG","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170411T213941Z","end":"20170412T001458Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170412T004049Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170412T004049Z","tags":["Prep DAWG","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170412T004049Z","end":"20170412T023013Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170412T191324Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170412T191324Z","tags":["Prep DAWG","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170412T191324Z","end":"20170412T191334Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170413T181612Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170413T181612Z","tags":["Prep DAWG","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170413T181612Z","end":"20170413T195558Z","tags":["Prep DAWG","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170413T195606Z","tags":["Polish Shiny app prototype","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170413T195606Z","tags":["Polish Shiny app prototype","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170413T195606Z","end":"20170413T214128Z","tags":["Polish Shiny app prototype","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170413T231557Z","tags":["Explore over fitting","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170413T231557Z","tags":["Explore over fitting","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170413T231557Z","end":"20170413T232920Z","tags":["Explore over fitting","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T002214Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170418T002214Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T002214Z","end":"20170418T012912Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T034925Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170418T034925Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T034925Z","end":"20170418T173416Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T193459Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170418T193459Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T193459Z","end":"20170418T201114Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T220902Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170418T220902Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170418T220902Z","end":"20170418T225950Z","tags":["CS231N Assignment 1","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170420T172540Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170420T172540Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170420T172540Z","end":"20170420T180755Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170420T184219Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170420T184219Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170420T184219Z","end":"20170420T185322Z","tags":["Review code and results for LISA based analysis","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170427T200326Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170427T200326Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170427T200326Z","end":"20170427T215710Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170427T234959Z","tags":["Clean out and inspect performance measures","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170427T234959Z","tags":["Clean out and inspect performance measures","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170427T234959Z","end":"20170428T064215Z","tags":["Clean out and inspect performance measures","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170428T184141Z","tags":["Clean out and inspect performance measures","proj:gasleaks"]}
+txn:
+  type: interval
+  before: {"start":"20170428T184141Z","tags":["Clean out and inspect performance measures","proj:gasleaks"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170428T184141Z","end":"20170430T043119Z","tags":["Clean out and inspect performance measures","proj:gasleaks"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170502T163124Z","tags":["Write up DT modeling","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170502T163124Z","tags":["Write up DT modeling","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170502T163124Z","end":"20170502T205655Z","tags":["Write up DT modeling","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170503T040458Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170503T040458Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170503T040458Z","end":"20170503T194002Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170503T210947Z","tags":["Finalize Shiny App","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170503T210947Z","tags":["Finalize Shiny App","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170503T210947Z","end":"20170504T051451Z","tags":["Finalize Shiny App","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170504T054807Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170504T054807Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170504T054807Z","end":"20170505T000219Z","tags":["CS231N Assignment 2","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170505T221252Z","tags":["Record dplyr quicky","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170505T221252Z","tags":["Record dplyr quicky","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170505T221252Z","end":"20170506T054105Z","tags":["Record dplyr quicky","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170509T202433Z","tags":["Plot bail response curves","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170509T202433Z","tags":["Plot bail response curves","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170509T202433Z","end":"20170509T212755Z","tags":["Plot bail response curves","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170509T213645Z","tags":["Implement lazy responsiveness","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170509T213645Z","tags":["Implement lazy responsiveness","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170509T213645Z","end":"20170509T220239Z","tags":["Implement lazy responsiveness","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170509T224954Z","tags":["Implement lazy responsiveness","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170509T224954Z","tags":["Implement lazy responsiveness","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170509T224954Z","end":"20170509T234431Z","tags":["Implement lazy responsiveness","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T000932Z","tags":["Investigate disparate impact of simple rules on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170510T000932Z","tags":["Investigate disparate impact of simple rules on DANY","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T000932Z","end":"20170510T003943Z","tags":["Investigate disparate impact of simple rules on DANY","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T210758Z","tags":["Start Overleaf document","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170510T210758Z","tags":["Start Overleaf document","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T210758Z","end":"20170510T220912Z","tags":["Start Overleaf document","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T220949Z","tags":["Gelman and Hill","proj:reading"]}
+txn:
+  type: interval
+  before: {"start":"20170510T220949Z","tags":["Gelman and Hill","proj:reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T220949Z","end":"20170510T221411Z","tags":["Gelman and Hill","proj:reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T221418Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170510T221418Z","tags":["CS231N Project milestone","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170510T221418Z","end":"20170510T223712Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170511T162005Z","tags":["Implement variable value measures","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170511T162005Z","tags":["Implement variable value measures","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170511T162005Z","end":"20170511T190456Z","tags":["Implement variable value measures","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170512T172249Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170512T172249Z","tags":["CS231N Project milestone","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170512T172249Z","end":"20170512T231340Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T180118Z","tags":["Make Shiny less responsive add update button","proj:strokes"]}
+txn:
+  type: interval
+  before: {"start":"20170515T180118Z","tags":["Make Shiny less responsive add update button","proj:strokes"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T180118Z","end":"20170515T183433Z","tags":["Make Shiny less responsive add update button","proj:strokes"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T183438Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170515T183438Z","tags":["CS231N Project milestone","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T183438Z","end":"20170515T184952Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T194046Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170515T194046Z","tags":["CS231N Project milestone","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T194046Z","end":"20170515T233035Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T233111Z","tags":["Compile analysis plan","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170515T233111Z","tags":["Compile analysis plan","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170515T233111Z","end":"20170516T004445Z","tags":["Compile analysis plan","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170516T163251Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170516T163251Z","tags":["CS231N Project milestone","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170516T163251Z","end":"20170516T175129Z","tags":["CS231N Project milestone","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170516T182638Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170516T182638Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170516T182638Z","end":"20170516T183354Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T042130Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170517T042130Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T042130Z","end":"20170517T165435Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T170136Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170517T170136Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T170136Z","end":"20170517T193729Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T195107Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170517T195107Z","tags":["Conduct robust causality analysis","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T195107Z","end":"20170517T212046Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T220827Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170517T220827Z","tags":["Conduct robust causality analysis","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170517T220827Z","end":"20170517T222532Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T040454Z","tags":["Clean up plots for MS","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20170519T040454Z","tags":["Clean up plots for MS","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T040454Z","end":"20170519T053617Z","tags":["Clean up plots for MS","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T053628Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170519T053628Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T053628Z","end":"20170519T212107Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170519T053628Z","end":"20170519T212107Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T053628Z","end":"20170519T092107Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T215658Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170519T215658Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T215658Z","end":"20170522T020324Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170519T215658Z","end":"20170522T020324Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T215658Z","end":"20170522T020324Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170519T215658Z","end":"20170522T020324Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: {"start":"20170519T215658Z","end":"20170522T020324Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170519T215658Z","end":"20170520T020324Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T020501Z","tags":["Compile slides for Ron","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170522T020501Z","tags":["Compile slides for Ron","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T020501Z","end":"20170522T024702Z","tags":["Compile slides for Ron","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T031757Z","tags":["Compile slides for Ron","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170522T031757Z","tags":["Compile slides for Ron","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T031757Z","end":"20170522T040602Z","tags":["Compile slides for Ron","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T041207Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170522T041207Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T041207Z","end":"20170522T055727Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T175326Z","tags":["Read Dobbie papers","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170522T175326Z","tags":["Read Dobbie papers","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T175326Z","end":"20170522T181348Z","tags":["Read Dobbie papers","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T181351Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170522T181351Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170522T181351Z","end":"20170522T185737Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T032832Z","tags":["Compile slides for Ron","proj:thesis"]}
+txn:
+  type: interval
+  before: {"start":"20170523T032832Z","tags":["Compile slides for Ron","proj:thesis"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T032832Z","end":"20170523T040738Z","tags":["Compile slides for Ron","proj:thesis"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T170228Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170523T170228Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T170228Z","end":"20170523T183536Z","tags":["CS231N Assignment 3","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T213741Z","tags":["Read Dobbie papers","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170523T213741Z","tags":["Read Dobbie papers","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T213741Z","end":"20170523T223456Z","tags":["Read Dobbie papers","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T225807Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170523T225807Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T225807Z","end":"20170524T025438Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170523T225807Z","end":"20170524T025438Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T225807Z","end":"20170524T025438Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170523T225807Z","end":"20170524T025438Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170523T225807Z","end":"20170524T005438Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170524T184142Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170524T184142Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170524T184142Z","end":"20170524T195849Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170524T202751Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170524T202751Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170524T202751Z","end":"20170524T203225Z","tags":["Re-clean data by misdemeanor or felony","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170524T203235Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170524T203235Z","tags":["Conduct robust causality analysis","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170524T203235Z","end":"20170524T233731Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170526T175927Z","tags":["Fill-in questionnaire for MSE interview","proj:personal"]}
+txn:
+  type: interval
+  before: {"start":"20170526T175927Z","tags":["Fill-in questionnaire for MSE interview","proj:personal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170526T175927Z","end":"20170526T190812Z","tags":["Fill-in questionnaire for MSE interview","proj:personal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170526T195732Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170526T195732Z","tags":["Conduct robust causality analysis","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170526T195732Z","end":"20170526T195736Z","tags":["Conduct robust causality analysis","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170531T183123Z","tags":["Redo evaluation on video level","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170531T183123Z","tags":["Redo evaluation on video level","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170531T183123Z","end":"20170601T051604Z","tags":["Redo evaluation on video level","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170608T175750Z","tags":["CS231N Final project due","proj:cs231n"]}
+txn:
+  type: interval
+  before: {"start":"20170608T175750Z","tags":["CS231N Final project due","proj:cs231n"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170608T175750Z","end":"20170608T215608Z","tags":["CS231N Final project due","proj:cs231n"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170614T203046Z","tags":["Create new data frame for Sam","proj:judge"]}
+txn:
+  type: interval
+  before: {"start":"20170614T203046Z","tags":["Create new data frame for Sam","proj:judge"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170614T203046Z","end":"20170615T225209Z","tags":["Create new data frame for Sam","proj:judge"]}

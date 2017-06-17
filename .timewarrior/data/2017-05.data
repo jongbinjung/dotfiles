@@ -1,0 +1,42 @@
+inc 20170502T163124Z - 20170502T205655Z # "Write up DT modeling" proj:strokes
+inc 20170503T040458Z - 20170503T194002Z # "CS231N Assignment 2" proj:cs231n
+inc 20170503T210947Z - 20170504T051451Z # "Finalize Shiny App" proj:strokes
+inc 20170504T054807Z - 20170505T000219Z # "CS231N Assignment 2" proj:cs231n
+inc 20170505T221252Z - 20170506T054105Z # "Record dplyr quicky" proj:teaching
+inc 20170509T202433Z - 20170509T212755Z # "Plot bail response curves" proj:bail
+inc 20170509T213645Z - 20170509T220239Z # "Implement lazy responsiveness" proj:strokes
+inc 20170509T224954Z - 20170509T234431Z # "Implement lazy responsiveness" proj:strokes
+inc 20170510T000932Z - 20170510T003943Z # "Investigate disparate impact of simple rules on DANY" proj:heuristics
+inc 20170510T210758Z - 20170510T220912Z # "Start Overleaf document" proj:cs231n
+inc 20170510T220949Z - 20170510T221411Z # "Gelman and Hill" proj:reading
+inc 20170510T221418Z - 20170510T223712Z # "CS231N Project milestone" proj:cs231n
+inc 20170511T162005Z - 20170511T190456Z # "Implement variable value measures" proj:strokes
+inc 20170512T172249Z - 20170512T231340Z # "CS231N Project milestone" proj:cs231n
+inc 20170515T180118Z - 20170515T183433Z # "Make Shiny less responsive add update button" proj:strokes
+inc 20170515T183438Z - 20170515T184952Z # "CS231N Project milestone" proj:cs231n
+inc 20170515T194046Z - 20170515T233035Z # "CS231N Project milestone" proj:cs231n
+inc 20170515T233111Z - 20170516T004445Z # "Compile analysis plan" proj:bail
+inc 20170516T163251Z - 20170516T175129Z # "CS231N Project milestone" proj:cs231n
+inc 20170516T182638Z - 20170516T183354Z # "CS231N Assignment 3" proj:cs231n
+inc 20170517T042130Z - 20170517T165435Z # "CS231N Assignment 3" proj:cs231n
+inc 20170517T170136Z - 20170517T193729Z # "CS231N Assignment 3" proj:cs231n
+inc 20170517T195107Z - 20170517T212046Z # "Conduct robust causality analysis" proj:bail
+inc 20170517T220827Z - 20170517T222532Z # "Conduct robust causality analysis" proj:bail
+inc 20170519T040454Z - 20170519T053617Z # "Clean up plots for MS" proj:heuristics
+inc 20170519T053628Z - 20170519T092107Z # "CS231N Assignment 3" proj:cs231n
+inc 20170519T215658Z - 20170520T020324Z # "Re-clean data by misdemeanor or felony" proj:bail
+inc 20170522T020501Z - 20170522T024702Z # "Compile slides for Ron" proj:thesis
+inc 20170522T031757Z - 20170522T040602Z # "Compile slides for Ron" proj:thesis
+inc 20170522T041207Z - 20170522T055727Z # "CS231N Assignment 3" proj:cs231n
+inc 20170522T175326Z - 20170522T181348Z # "Read Dobbie papers" proj:bail
+inc 20170522T181351Z - 20170522T185737Z # "Re-clean data by misdemeanor or felony" proj:bail
+inc 20170523T032832Z - 20170523T040738Z # "Compile slides for Ron" proj:thesis
+inc 20170523T170228Z - 20170523T183536Z # "CS231N Assignment 3" proj:cs231n
+inc 20170523T213741Z - 20170523T223456Z # "Read Dobbie papers" proj:bail
+inc 20170523T225807Z - 20170524T005438Z # "Re-clean data by misdemeanor or felony" proj:bail
+inc 20170524T184142Z - 20170524T195849Z # "Re-clean data by misdemeanor or felony" proj:bail
+inc 20170524T202751Z - 20170524T203225Z # "Re-clean data by misdemeanor or felony" proj:bail
+inc 20170524T203235Z - 20170524T233731Z # "Conduct robust causality analysis" proj:bail
+inc 20170526T175927Z - 20170526T190812Z # "Fill-in questionnaire for MSE interview" proj:personal
+inc 20170526T195732Z - 20170526T195736Z # "Conduct robust causality analysis" proj:bail
+inc 20170531T183123Z - 20170601T051604Z # "Redo evaluation on video level" proj:cs231n

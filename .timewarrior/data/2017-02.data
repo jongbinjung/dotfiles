@@ -38,3 +38,31 @@ inc 20170214T181147Z - 20170214T181752Z # "Initial model for strokes" proj:thesi
 inc 20170214T181801Z - 20170214T182636Z # "Solution for hw5" proj:teaching
 inc 20170214T182636Z - 20170214T185442Z # "Initial model for strokes" proj:thesis
 inc 20170214T213933Z - 20170215T003542Z # "Check for discontinuity to determine amplitude cutoff" proj:gasleaks
+inc 20170215T200038Z - 20170215T223655Z # "Initial model for strokes" proj:thesis
+inc 20170215T232306Z - 20170215T233457Z # "Defining Insight for Visual Analytics" paper proj:reading visualization
+inc 20170216T182451Z - 20170216T184227Z # "Update KDD submission" proj:heuristics
+inc 20170216T191523Z - 20170216T195603Z # "Update KDD submission" proj:heuristics
+inc 20170216T200203Z - 20170216T200521Z # "Update KDD submission" proj:heuristics
+inc 20170216T201040Z - 20170216T202226Z # "Update arXiv submission" proj:heuristics
+inc 20170216T202233Z - 20170216T204122Z # "Submit to SSRN" proj:heuristics
+inc 20170221T182012Z - 20170221T185436Z # "Read Hohnhold on longterm focus" proj:reading
+inc 20170221T192231Z - 20170221T192915Z # "Read Hohnhold on longterm focus" proj:reading
+inc 20170221T193847Z - 20170221T200341Z # "Read Hohnhold on longterm focus" proj:reading
+inc 20170221T204731Z - 20170221T205413Z # "Write lecture code for week 8" proj:teaching
+inc 20170221T205809Z - 20170221T210644Z # "Respond to meeting emails" proj:heurstics
+inc 20170221T211104Z - 20170221T215948Z # "Kleinberg paper" proj:reading
+inc 20170221T224933Z - 20170222T002728Z # "Investigate more features" proj:gasleaks
+inc 20170222T002737Z - 20170222T005818Z # "Kleinberg paper" proj:reading
+inc 20170222T005837Z - 20170222T011003Z # "Schedule meeting with Ron" proj:strokes
+inc 20170222T224801Z - 20170222T225741Z # "Gelman on type S and type M errors" proj:reading
+inc 20170222T230821Z - 20170222T231008Z # "Add wind_speed x ch4" proj:gasleaks
+inc 20170222T231011Z - 20170222T235005Z # "Gelman on type S and type M errors" proj:reading
+inc 20170223T013927Z - 20170223T020904Z # "Explore partial pooling/heirarchical modelling for multiple passes" proj:gasleaks
+inc 20170223T212106Z - 20170223T213544Z # "Go through stroke papers via Prasha" proj:strokes
+inc 20170224T190435Z - 20170224T190439Z # "Go through stroke papers via Prasha" proj:strokes
+inc 20170224T190441Z - 20170224T195505Z # "Write methodology paragraph for Spectrum Grant" proj:medical
+inc 20170224T195638Z - 20170224T214152Z # "Investigate more features" proj:gasleaks
+inc 20170227T213101Z - 20170227T230103Z # "Investigate more features" proj:gasleaks
+inc 20170228T215321Z - 20170228T222743Z # "Check updated performance with full data" proj:gasleaks
+inc 20170228T223737Z - 20170228T223741Z # "Collect readings for data analysis" proj:thesis
+inc 20170228T223744Z - 20170301T004118Z # "Check updated performance with full data" proj:gasleaks
