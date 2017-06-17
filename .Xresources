@@ -1,6 +1,6 @@
 ! Rofi settings ----------------------------------------------------------------
 ! "Enabled modi" Set from: Default
-! rofi.modi:                           window,run,ssh
+rofi.modi:                           combi,ssh
 ! "Window width" Set from: Default
 rofi.width:                          40
 ! "Number of lines" Set from: Default
@@ -52,7 +52,7 @@ rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
 ! "Cycle through the results list" Set from: Default
 ! rofi.cycle:                          true
 ! "Enable sidebar-mode" Set from: Default
-! rofi.sidebar-mode:                   false
+rofi.sidebar-mode:                   true
 ! "Row height (in chars)" Set from: Default
 ! rofi.eh:                             1
 ! "Enable auto select mode" Set from: Default
@@ -62,7 +62,7 @@ rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
 ! "Parse known_hosts file for ssh mode" Set from: Default
 ! rofi.parse-known-hosts:              true
 ! "Set the modi to combine in combi mode" Set from: Default
-! rofi.combi-modi:                     window,run
+rofi.combi-modi:                     window,drun
 ! "Set the matching algorithm. (normal, regex, glob, fuzzy)" Set from: Default
 rofi.matching:                       fuzzy
 ! "Tokenize input string" Set from: Default
@@ -128,7 +128,7 @@ rofi.scrollbar-width:                2
 ! "Delete previous char" Set from: Default
 rofi.kb-remove-char-back:            BackSpace
 ! "Delete till the end of line" Set from: Default
-rofi.kb-remove-to-eol:               Control+d
+rofi.kb-remove-to-eol:               Control+k
 ! "Delete till the start of line" Set from: Default
 ! rofi.kb-remove-to-sol:               Control+u
 ! "Accept entry" Set from: Default
@@ -140,17 +140,17 @@ rofi.kb-accept-entry:                Control+m,Return,KP_Enter
 ! "Delete entry from history" Set from: Default
 ! rofi.kb-delete-entry:                Shift+Delete
 ! "Switch to the next mode." Set from: Default
-rofi.kb-mode-next:                   Control+l,Shift+Right,Control+Tab
+rofi.kb-mode-next:                   Super+l,Shift+Right,Control+Tab
 ! "Switch to the previous mode." Set from: Default
-rofi.kb-mode-previous:               Control+h,Shift+Left,Control+Shift+Tab
+rofi.kb-mode-previous:               Super+h,Shift+Left,Control+Shift+Tab
 ! "Go to the previous column" Set from: Default
 ! rofi.kb-row-left:                    Control+Page_Up
 ! "Go to the next column" Set from: Default
 ! rofi.kb-row-right:                   Control+Page_Down
 ! "Select previous entry" Set from: Default
-rofi.kb-row-up:                      Up,Control+k,Shift+Tab,Shift+ISO_Left_Tab
+rofi.kb-row-up:                      Up,Super+k,Shift+Tab,Shift+ISO_Left_Tab
 ! "Select next entry" Set from: Default
-rofi.kb-row-down:                    Down,Control+j
+rofi.kb-row-down:                    Down,Super+j
 ! "Go to next row, if one left, accept it, if no left next mode." Set from: Default
 ! rofi.kb-row-tab:                     Tab
 ! "Go to the previous page" Set from: Default
@@ -170,7 +170,7 @@ rofi.kb-row-down:                    Down,Control+j
 ! "Toggle sort" Set from: Default
 ! rofi.kb-toggle-sort:                 Alt+grave
 ! "Quit rofi" Set from: Default
-! rofi.kb-cancel:                      Escape,Control+g,Control+bracketleft
+ rofi.kb-cancel:                      Escape,Super+space,Control+g,Control+bracketleft
 ! "Custom keybinding 1" Set from: Default
 ! rofi.kb-custom-1:                    Alt+1
 ! "Custom keybinding 2" Set from: Default
@@ -220,4 +220,4 @@ rofi.kb-row-down:                    Down,Control+j
 ! "The display name of this browser" Set from: Default
 ! rofi.display-windowcd:               
 ! "The display name of this browser" Set from: Default
-! rofi.display-combi:                  
+rofi.display-combi:                  get
