@@ -2,7 +2,7 @@
 
 # set colors {{{
 if [ -x /usr/bin/dircolors ]; then
-  test -r $HOME/.dir_colors && eval "$(dircolors -b $HOME/.dir_colors)" || eval "$(dircolors -b)"
+  test -r "$HOME/.dir_colors" && eval "$(dircolors -b $HOME/.dir_colors)" || eval "$(dircolors -b)"
   alias ls='ls --color=auto --group-directories-first -h'
 
   alias grep='grep --color=auto'
@@ -68,7 +68,8 @@ complete -F _todo td
 alias matlabc='matlab -nodisplay -nodesktop'
 # }}}
 # Remote connections {{{
-alias soal='ssh soal-cluster.stanford.edu'
+# Copy Stanford 2fa before ssh
+alias sussh='2fa stan; ssh'
 #}}}
 # fileutil aliases {{{
 alias fll='fileutil ls -l -h'
