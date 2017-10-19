@@ -1,6 +1,14 @@
 #!/bin/bash
 BASE_DIR=`pwd`
-
+COMMENT_MARKER="# Generated from jongbin dotfile"
+HEADER="
+source $HOME/.bash_paths $COMMENT_MARKER
+source $HOME/.bash_aliases $COMMENT_MARKER
+"
+FOOTER="
+source $HOME/.bash_git $COMMENT_MARKER
+source $HOME/.bash_prompt $COMMENT_MARKER
+source $HOME/.bash_helpers $COMMENT_MARKER"
 # Create symlink for necessary dotfiles
 echo "Setup all aliases?"
 select yn in "Yes" "No"
@@ -36,15 +44,17 @@ done
 # Update .bashrc to source necessary files
 # Backup original .bashrc
 cp $HOME/.bashrc $HOME/.bashrc.bak
-cp $HOME/.bashrc.bak $HOME/.bashrc
+# cp $HOME/.bashrc.bak $HOME/.bashrc
 
 # Remove would-be duplicate lines
-cat $HOME/.bashrc | sed -e '/# Generated from jongbin dotfile/d' > $HOME/.bashrc.mod
+cat $HOME/.bashrc | sed -e "/$COMMENT_MARKER/d" > $HOME/.bashrc.mod
 
 # Prepend sourcing headers
-cat $BASE_DIR/.header_bashrc $HOME/.bashrc.mod $BASE_DIR/.footer_bashrc > \
+echo -e "$HEADER" > "$BASE_DIR"/.tmpheader
+echo -e "$FOOTER" > "$BASE_DIR"/.tmpfooter
+cat "$BASE_DIR"/.tmpheader "$HOME"/.bashrc.mod "$BASE_DIR"/.tmpfooter > \
   $HOME/.bashrc
-rm -f $HOME/.bashrc.mod
+rm -vf "$BASE_DIR/.tmpheader" "$BASE_DIR/.tmpfooter" "$HOME/.bashrc.mod"
 
 echo "Copy bash_completion.d to global /etc/bash_completion.d? (Requires root)"
 select yn in "Yes" "No"
