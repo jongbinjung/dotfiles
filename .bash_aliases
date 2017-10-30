@@ -2,6 +2,7 @@
 
 # set colors {{{
 if [ -x /usr/bin/dircolors ]; then
+  #shellcheck disable=SC2015,SC2086
   test -r "$HOME/.dir_colors" && eval "$(dircolors -b $HOME/.dir_colors)" || eval "$(dircolors -b)"
   alias ls='ls --color=auto --group-directories-first -h'
 
