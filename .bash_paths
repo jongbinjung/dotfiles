@@ -1,6 +1,24 @@
 #!/usr/bin/env bash
 
+pathmunge () {
+  case ":${PATH}:" in
+    *:"$1":*)
+      ;;
+    *)
+      if [ "$2" = "after" ] ; then
+        PATH=$PATH:$1
+      else
+        PATH=$1:$PATH
+      fi
+  esac
+}
+
 export GOPATH=$HOME/go
-PATH=$GOPATH/bin:$HOME/bin:$HOME/.local/bin:$HOME/repos/scripts:$PATH
-export PATH
 export MYGO=$GOPATH/src/github.com/jongbinjung
+
+pathmunge "$GOPATH/bin"
+pathmunge "$HOME/repos/scripts"
+pathmunge "$HOME/bin"
+pathmunge "$HOME/.local/bin"
+
+export PATH
