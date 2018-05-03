@@ -70,7 +70,7 @@ alias matlabc='matlab -nodisplay -nodesktop'
 # }}}
 # Remote connections {{{
 # Copy Stanford 2fa before ssh
-alias sussh='2fa stan; ssh'
+alias sussh='2fa stan; ssh -Y'
 #}}}
 # fileutil aliases {{{
 alias fll='fileutil ls -l -h'
