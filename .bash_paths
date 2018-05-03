@@ -20,5 +20,6 @@ pathmunge "$GOPATH/bin"
 pathmunge "$HOME/repos/scripts"
 pathmunge "$HOME/bin"
 pathmunge "$HOME/.local/bin"
+pathmunge "$HOME/.cargo/bin"
 
 export PATH
