@@ -21,6 +21,7 @@ do
       ln -sf "$BASE_DIR/.bash_paths" "$HOME/.bash_paths"
       ln -sf "$BASE_DIR/.taskrc" "$HOME/.taskrc"
       ln -sf "$BASE_DIR/.Xmodmap" "$HOME/.Xmodmap"
+      ln -sf "$BASE_DIR/.tmux.conf" "$HOME/.tmux.conf"
       ln -sf "$BASE_DIR/.Xresources" "$HOME/.Xresources"
       ln -sf "$BASE_DIR/.flake8" "$HOME/.flake8"
       ln -sf "$BASE_DIR/.pylintrc" "$HOME/.pylintrc"
