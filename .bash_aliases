@@ -38,7 +38,7 @@ function bd {
 }
 # }}}
 # ls aliases {{{
-alias ll='ls -lv --group-directories-first'
+alias ll='ls -lv'
 alias la='ll -A'
 alias l='ls -CF'
 alias lg='ls -la | grep'
