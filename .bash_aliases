@@ -14,7 +14,6 @@ fi
 # Navigation aliases {{{
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
-alias open='xdg-open'
 
 function bd {
   # navigate to any parent directory by name
