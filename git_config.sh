@@ -9,3 +9,5 @@ git config --global user.name "Jongbin Jung"
 git config --global user.email jungjongbin86@gmail.com
 
 git config --global blame.date short
+
+git config --global format.pretty format:"%C(auto)%h %C(green)%aN%Creset %s"
