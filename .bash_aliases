@@ -47,6 +47,7 @@ alias lg='ls -la | grep'
 alias gj='git pull'
 alias gk='git push'
 alias gd='git diff'
+alias gl='git log'
 # }}}
 # Others {{{
 alias echo='echo -e'
