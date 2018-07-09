@@ -1,0 +1,58 @@
+/* Shrinking titlebars, see:
+ * https://unix.stackexchange.com/questions/276951/how-to-change-the-titlebar-height-in-standard-gtk-apps-and-those-with-headerbars
+  */
+window.ssd  headerbar* {
+  margin-top: -100px;
+}
+
+window.ssd headerbar.titlebar,
+window.ssd headerbar.titlebar button.titlebutton {
+  border: none;
+  font-size: 0;
+  height: 0;
+  margin: 0;
+  max-height: 0;
+  min-height: 0;
+  padding: 0;
+}
+
+/* shrink headebars */
+headerbar {
+  min-height: 0px;
+  padding-left: 0px; /* same as childrens vertical margins for nicer proportions */
+  padding-right: 0px;
+}
+
+/* shrink ssd titlebars */
+.default-decoration {
+  min-height: 0; /* let the entry and button drive the titlebar size */
+  padding: 0px
+}
+
+.default-decoration .titlebutton {
+  min-height: 0px; /* tweak these two props to reduce button size */
+  min-width: 0px;
+}
+
+/* Decrease the tabs bar height in gnome-terminal
+ * See:
+ * https://stackoverflow.com/questions/36869701/decrease-the-tabs-bar-height-in-gnome-terminal
+ */
+
+terminal-window notebook > header.top button {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background-image: none;
+  border: 0;
+  font-size: 8pt;
+}
+terminal-window notebook > header.top > tabs > tab {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 8pt;
+}
+terminal-window notebook > header.top > tabs > tab label {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 8pt;
+}
