@@ -3,6 +3,11 @@
 # Return from "Stop" (Ctrl + S)
 stty ixany
 
+# Syntax-highlighting for less (requires source-highlight)
+export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
+export LESS=" -R "
+
+
 # Use up-arrow to search history
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
