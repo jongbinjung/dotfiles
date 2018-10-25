@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set colors {{{
+# set colors
 if [ -x /usr/bin/dircolors ]; then
   #shellcheck disable=SC2015,SC2086
   test -r "$HOME/.dir_colors" && eval "$(dircolors -b $HOME/.dir_colors)" || eval "$(dircolors -b)"
@@ -10,8 +10,8 @@ if [ -x /usr/bin/dircolors ]; then
   alias fgrep='fgrep --color=auto'
   alias egrep='egrep --color=auto'
 fi
-# }}}
-# Navigation aliases {{{
+
+# Navigation aliases
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
 alias open='xdg-open'
@@ -36,21 +36,22 @@ function bd {
     eval "$cmd ${p%$arg*}$arg"
   fi
 }
-# }}}
-# ls aliases {{{
+
+# ls aliases
 alias ll='ls -lv --group-directories-first'
 alias la='ll -A'
 alias l='ls -CF'
 alias lg='ls -la | grep'
-# }}}
-# git quick aliases {{{
+
+# git quick aliases
 alias gj='git pull'
 alias gk='git push'
 alias gd='git diff'
 alias gl='git log'
-# }}}
-# Others {{{
+
+# Others
 alias echo='echo -e'
+
 # ipython should never auto-indent
 alias ipython='ipython --no-autoindent'
 
@@ -59,23 +60,18 @@ alias path='echo -e ${PATH//:/\\n}'
 # count lines of file
 alias count='wc -l < '
 
-# impressive to impressive.py
-alias impressive='impressive -T 0'
-
-# todo.sh w/ completion
-alias td='todo.sh -d /home/jongbin/Dropbox/todo/.todo.cfg'
-complete -F _todo td
+# timewarrior
+alias tw='timewarrior'
 
 # matlab command line
 alias matlabc='matlab -nodisplay -nodesktop'
-# }}}
-# Remote connections {{{
+
+# Remote connections
 # Copy Stanford 2fa before ssh
 alias sussh='2fa stan; ssh -Y'
-#}}}
-# fileutil aliases {{{
+
+# fileutil aliases
 alias fll='fileutil ls -l -h'
 alias fla='fll -a'
 alias fcp='fileutil cp'
 alias fcat='fileutil cat'
-# }}}
