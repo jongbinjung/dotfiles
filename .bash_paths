@@ -21,5 +21,6 @@ pathmunge "$HOME/repos/scripts"
 pathmunge "$HOME/bin"
 pathmunge "$HOME/.local/bin"
 pathmunge "$HOME/.cargo/bin"
+pathmunge "/usr/local/sbin"
 
 export PATH
