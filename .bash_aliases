@@ -61,10 +61,11 @@ alias path='echo -e ${PATH//:/\\n}'
 alias count='wc -l < '
 
 # timewarrior
-alias tw='timewarrior'
+alias tw='timew'
 
 # matlab command line
 alias matlabc='matlab -nodisplay -nodesktop'
+alias present='impressive -T0'
 
 # Remote connections
 # Copy Stanford 2fa before ssh
