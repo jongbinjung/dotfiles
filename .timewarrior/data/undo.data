@@ -2318,3 +2318,803 @@ txn:
   type: interval
   before: 
   after: {"start":"20170614T203046Z","end":"20170615T225209Z","tags":["Create new data frame for Sam","proj:judge"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170918T175518Z","tags":["Draft FTDM plot outline","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170918T175518Z","tags":["Draft FTDM plot outline","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170918T175518Z","end":"20170918T211101Z","tags":["Draft FTDM plot outline","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170918T211101Z","tags":["Read up on sensitivity papers","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170918T211101Z","tags":["Read up on sensitivity papers","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170918T211101Z","end":"20170918T211425Z","tags":["Read up on sensitivity papers","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170919T184619Z","tags":["Test HW1","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170919T184619Z","tags":["Test HW1","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170919T184619Z","end":"20170919T215103Z","tags":["Test HW1","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204251Z","tags":["Bootstrap judge/defendant for regression and IV","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170921T204251Z","tags":["Bootstrap judge/defendant for regression and IV","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204251Z","end":"20170921T204314Z","tags":["Bootstrap judge/defendant for regression and IV","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204314Z","tags":["Test HW1","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20170921T204314Z","tags":["Test HW1","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204314Z","end":"20170921T204317Z","tags":["Test HW1","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204317Z","tags":["Read up on sensitivity papers","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170921T204317Z","tags":["Read up on sensitivity papers","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204317Z","end":"20170926T184752Z","tags":["Read up on sensitivity papers","proj:bail"]}
+txn:
+  type: interval
+  before: {"start":"20170921T204317Z","tags":["Read up on sensitivity papers","proj:bail"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170921T204317Z","end":"20170926T184758Z","tags":["Read up on sensitivity papers","proj:bail"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180208T181614Z","tags":["What happens if we replicate an assumed policy","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180208T181614Z","tags":["What happens if we replicate an assumed policy","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180208T181614Z","end":"20180214T183720Z","tags":["What happens if we replicate an assumed policy","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180308T185940Z","tags":["Port bail analysis to undi","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180308T185940Z","tags":["Port bail analysis to undi","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180308T185940Z","end":"20180308T185950Z","tags":["Port bail analysis to undi","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180308T185950Z","tags":["Write expanded description of undi","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180308T185950Z","tags":["Write expanded description of undi","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180308T185950Z","end":"20180308T211017Z","tags":["Write expanded description of undi","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180308T185950Z","tags":["Write expanded description of undi","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180308T185950Z","end":"20180312T172043Z","tags":["Write expanded description of undi","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180423T165227Z","tags":["Write out likelihood for undi sensitivity","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180423T165227Z","tags":["Write out likelihood for undi sensitivity","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180423T165227Z","end":"20180423T181134Z","tags":["Write out likelihood for undi sensitivity","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180430T202054Z","tags":["Clean-up RnR scripts","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20180430T202054Z","tags":["Clean-up RnR scripts","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180430T202054Z","end":"20180430T234942Z","tags":["Clean-up RnR scripts","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180917T211606Z","tags":["Reformat to AIStats","proj:bs"]}
+txn:
+  type: interval
+  before: {"start":"20180917T211606Z","tags":["Reformat to AIStats","proj:bs"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180917T211606Z","end":"20180917T225644Z","tags":["Reformat to AIStats","proj:bs"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180924T174733Z","tags":["Full pass and summary script","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180924T174733Z","tags":["Full pass and summary script","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180924T174733Z","end":"20180924T213547Z","tags":["Full pass and summary script","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180925T173048Z","tags":["JRSS A revision v2","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20180925T173048Z","tags":["JRSS A revision v2","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180925T173048Z","end":"20180925T190223Z","tags":["JRSS A revision v2","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180925T204853Z","tags":["Submit to JASA","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20180925T204853Z","tags":["Submit to JASA","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20180925T204853Z","end":"20180926T161524Z","tags":["Submit to JASA","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181004T171344Z","tags":["JRSS A revision v2","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20181004T171344Z","tags":["JRSS A revision v2","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181004T171344Z","end":"20181004T181824Z","tags":["JRSS A revision v2","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181004T181827Z","tags":["Initial recreation of ptra scores","proj:usda"]}
+txn:
+  type: interval
+  before: {"start":"20181004T181827Z","tags":["Initial recreation of ptra scores","proj:usda"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181004T181827Z","end":"20181004T211102Z","tags":["Initial recreation of ptra scores","proj:usda"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181005T210107Z","tags":["Figure out Rstudio latest image","proj:matrix"]}
+txn:
+  type: interval
+  before: {"start":"20181005T210107Z","tags":["Figure out Rstudio latest image","proj:matrix"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181005T210107Z","end":"20181005T233251Z","tags":["Figure out Rstudio latest image","proj:matrix"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181008T175621Z","tags":["Initial recreation of ptra scores","proj:usda"]}
+txn:
+  type: interval
+  before: {"start":"20181008T175621Z","tags":["Initial recreation of ptra scores","proj:usda"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181008T175621Z","end":"20181008T183423Z","tags":["Initial recreation of ptra scores","proj:usda"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181008T202530Z","tags":["First stab at RAR practice notebook","proj:loa"]}
+txn:
+  type: interval
+  before: {"start":"20181008T202530Z","tags":["First stab at RAR practice notebook","proj:loa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181008T202530Z","end":"20181008T215816Z","tags":["First stab at RAR practice notebook","proj:loa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181008T220844Z","tags":["First stab at RAR practice notebook","proj:loa"]}
+txn:
+  type: interval
+  before: {"start":"20181008T220844Z","tags":["First stab at RAR practice notebook","proj:loa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181008T220844Z","end":"20181008T234428Z","tags":["First stab at RAR practice notebook","proj:loa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181009T163833Z","tags":["Full read of dressel and farid","proj:sa"]}
+txn:
+  type: interval
+  before: {"start":"20181009T163833Z","tags":["Full read of dressel and farid","proj:sa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181009T163833Z","end":"20181009T175407Z","tags":["Full read of dressel and farid","proj:sa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181009T181719Z","tags":["Full read of dressel and farid","proj:sa"]}
+txn:
+  type: interval
+  before: {"start":"20181009T181719Z","tags":["Full read of dressel and farid","proj:sa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181009T181719Z","end":"20181009T184441Z","tags":["Full read of dressel and farid","proj:sa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181016T204526Z","tags":["Wrap up omitted included variables note","proj:loa"]}
+txn:
+  type: interval
+  before: {"start":"20181016T204526Z","tags":["Wrap up omitted included variables note","proj:loa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181016T204526Z","end":"20181016T235228Z","tags":["Wrap up omitted included variables note","proj:loa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181017T162303Z","tags":["Wrap up omitted included variables note","proj:loa"]}
+txn:
+  type: interval
+  before: {"start":"20181017T162303Z","tags":["Wrap up omitted included variables note","proj:loa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181017T162303Z","end":"20181017T180438Z","tags":["Wrap up omitted included variables note","proj:loa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181019T174133Z","tags":["Complete Appendix C","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20181019T174133Z","tags":["Complete Appendix C","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181019T174133Z","end":"20181022T165136Z","tags":["Complete Appendix C","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181022T165515Z","tags":["Complete Appendix C","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20181022T165515Z","tags":["Complete Appendix C","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181022T165515Z","end":"20181022T201638Z","tags":["Complete Appendix C","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181024T203029Z","tags":["Figure out outcomes and risk assessment","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181024T203029Z","tags":["Figure out outcomes and risk assessment","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181024T203029Z","end":"20181025T155809Z","tags":["Figure out outcomes and risk assessment","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181025T175227Z","tags":["Figure out outcomes and risk assessment","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181025T175227Z","tags":["Figure out outcomes and risk assessment","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181025T175227Z","end":"20181029T163300Z","tags":["Figure out outcomes and risk assessment","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181106T185150Z","tags":["Stats of immigrant offences","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181106T185150Z","tags":["Stats of immigrant offences","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181106T185150Z","end":"20181106T192354Z","tags":["Stats of immigrant offences","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181106T192754Z","tags":["Stats of immigrant offences","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181106T192754Z","tags":["Stats of immigrant offences","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181106T192754Z","end":"20181106T200336Z","tags":["Stats of immigrant offences","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T183111Z","tags":["Clean up pass","proj:heuristics"]}
+txn:
+  type: interval
+  before: {"start":"20181126T183111Z","tags":["Clean up pass","proj:heuristics"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T183111Z","end":"20181126T183115Z","tags":["Clean up pass","proj:heuristics"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T191304Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181126T191304Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T191304Z","end":"20181126T193921Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T194219Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181126T194219Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T194219Z","end":"20181126T195717Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T211840Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181126T211840Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181126T211840Z","end":"20181126T213019Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181127T200948Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181127T200948Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181127T200948Z","end":"20181129T193352Z","tags":["Stats of immigrant offenses","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T193521Z","tags":["Review Cynthia paper","proj:review"]}
+txn:
+  type: interval
+  before: {"start":"20181129T193521Z","tags":["Review Cynthia paper","proj:review"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T193521Z","end":"20181129T234842Z","tags":["Review Cynthia paper","proj:review"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T234845Z","tags":["Kitchen sink analysis","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181129T234845Z","tags":["Kitchen sink analysis","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T234845Z","end":"20181130T234742Z","tags":["Kitchen sink analysis","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181204T204135Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+txn:
+  type: interval
+  before: {"start":"20181204T204135Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181204T204135Z","end":"20181204T223406Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181206T222641Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+txn:
+  type: interval
+  before: {"start":"20181206T222641Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181206T222641Z","end":"20181207T193718Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+txn:
+  type: interval
+  before: {"start":"20181206T222641Z","end":"20181207T193718Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181207T193923Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+txn:
+  type: interval
+  before: {"start":"20181207T193923Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181207T193923Z","end":"20181207T195351Z","tags":["Initiate KDD manuscript","proj:bsa"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181210T175645Z","tags":["Prep Judge slides","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181210T175645Z","tags":["Prep Judge slides","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181210T175645Z","end":"20181210T214517Z","tags":["Prep Judge slides","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181210T222847Z","tags":["Prep Judge slides","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20181210T222847Z","tags":["Prep Judge slides","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181210T222847Z","end":"20181211T200159Z","tags":["Prep Judge slides","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181211T215337Z","tags":["Review Cynthia paper","proj:review"]}
+txn:
+  type: interval
+  before: {"start":"20181211T215337Z","tags":["Review Cynthia paper","proj:review"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181211T215337Z","end":"20181212T054508Z","tags":["Review Cynthia paper","proj:review"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190108T195818Z","tags":["Analysis of churn","proj:rats"]}
+txn:
+  type: interval
+  before: {"start":"20190108T195818Z","tags":["Analysis of churn","proj:rats"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190108T195818Z","end":"20190108T225039Z","tags":["Analysis of churn","proj:rats"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190109T203036Z","tags":["Prep tutorial","proj:125"]}
+txn:
+  type: interval
+  before: {"start":"20190109T203036Z","tags":["Prep tutorial","proj:125"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190109T203036Z","end":"20190109T214424Z","tags":["Prep tutorial","proj:125"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190110T190508Z","tags":["Initial write up of feedback experiment","proj:rats"]}
+txn:
+  type: interval
+  before: {"start":"20190110T190508Z","tags":["Initial write up of feedback experiment","proj:rats"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190110T190508Z","end":"20190110T215312Z","tags":["Initial write up of feedback experiment","proj:rats"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190110T215316Z","tags":["Prep tutorial","proj:125"]}
+txn:
+  type: interval
+  before: {"start":"20190110T215316Z","tags":["Prep tutorial","proj:125"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190110T215316Z","end":"20190111T051552Z","tags":["Prep tutorial","proj:125"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190111T201022Z","tags":["Rewrite reputation manuscript","proj:reputation"]}
+txn:
+  type: interval
+  before: {"start":"20190111T201022Z","tags":["Rewrite reputation manuscript","proj:reputation"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190111T201022Z","end":"20190112T021120Z","tags":["Rewrite reputation manuscript","proj:reputation"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190115T204418Z","tags":["Figure out requirements and paper work","proj:grad"]}
+txn:
+  type: interval
+  before: {"start":"20190115T204418Z","tags":["Figure out requirements and paper work","proj:grad"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190115T204418Z","end":"20190115T213908Z","tags":["Figure out requirements and paper work","proj:grad"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190116T230233Z","tags":["Refactor notes","proj:lba"]}
+txn:
+  type: interval
+  before: {"start":"20190116T230233Z","tags":["Refactor notes","proj:lba"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190116T230233Z","end":"20190117T212557Z","tags":["Refactor notes","proj:lba"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190122T193938Z","tags":["Build disparate impact models and analysis","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20190122T193938Z","tags":["Build disparate impact models and analysis","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190122T193938Z","end":"20190122T224656Z","tags":["Build disparate impact models and analysis","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190128T223341Z","tags":["Add init script to pull data","proj:lba"]}
+txn:
+  type: interval
+  before: {"start":"20190128T223341Z","tags":["Add init script to pull data","proj:lba"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190128T223341Z","end":"20190128T225110Z","tags":["Add init script to pull data","proj:lba"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190204T194244Z","tags":["Check risk estimates","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20190204T194244Z","tags":["Check risk estimates","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190204T194244Z","end":"20190204T211209Z","tags":["Check risk estimates","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190204T211330Z","tags":["Start revision for AOAS","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20190204T211330Z","tags":["Start revision for AOAS","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190204T211330Z","end":"20190204T232157Z","tags":["Start revision for AOAS","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190205T224301Z","tags":["Write pdf extractor","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20190205T224301Z","tags":["Write pdf extractor","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190205T224301Z","end":"20190206T212935Z","tags":["Write pdf extractor","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190211T190745Z","tags":["Update HW6 description","proj:teaching"]}
+txn:
+  type: interval
+  before: {"start":"20190211T190745Z","tags":["Update HW6 description","proj:teaching"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190211T190745Z","end":"20190212T002730Z","tags":["Update HW6 description","proj:teaching"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190227T213042Z","tags":["Implement revisions","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20190227T213042Z","tags":["Implement revisions","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190227T213042Z","end":"20190228T010704Z","tags":["Implement revisions","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190228T221424Z","tags":["Implement revisions","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20190228T221424Z","tags":["Implement revisions","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190228T221424Z","end":"20190301T004551Z","tags":["Implement revisions","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190304T191500Z","tags":["Prepare final exam questions","proj:125"]}
+txn:
+  type: interval
+  before: {"start":"20190304T191500Z","tags":["Prepare final exam questions","proj:125"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190304T191500Z","end":"20190305T230634Z","tags":["Prepare final exam questions","proj:125"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190306T195912Z","tags":["Prepare final exam questions","proj:125"]}
+txn:
+  type: interval
+  before: {"start":"20190306T195912Z","tags":["Prepare final exam questions","proj:125"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190306T195912Z","end":"20190306T224503Z","tags":["Prepare final exam questions","proj:125"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190307T193615Z","tags":["Incorporate DAWG comments to defense deck","proj:grad"]}
+txn:
+  type: interval
+  before: {"start":"20190307T193615Z","tags":["Incorporate DAWG comments to defense deck","proj:grad"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190307T193615Z","end":"20190307T211418Z","tags":["Incorporate DAWG comments to defense deck","proj:grad"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190424T172917Z","tags":["Simluate population by arbitrary perturbation","proj:di"]}
+txn:
+  type: interval
+  before: {"start":"20190424T172917Z","tags":["Simluate population by arbitrary perturbation","proj:di"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190424T172917Z","end":"20190424T191124Z","tags":["Simluate population by arbitrary perturbation","proj:di"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190507T195847Z","tags":["Prep report parser","proj:usdc"]}
+txn:
+  type: interval
+  before: {"start":"20190507T195847Z","tags":["Prep report parser","proj:usdc"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190507T195847Z","end":"20190507T205613Z","tags":["Prep report parser","proj:usdc"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190528T174444Z","tags":["Thesis revision","proj:grad"]}
+txn:
+  type: interval
+  before: {"start":"20190528T174444Z","tags":["Thesis revision","proj:grad"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20190528T174444Z","end":"20190528T184649Z","tags":["Thesis revision","proj:grad"]}
