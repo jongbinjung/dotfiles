@@ -23,6 +23,8 @@ fi
 # ✔ user_name@system_name[current_location](current_branch)
 # $_
 # requires: .bash_git
+# Removed username, to save some space ...
+# \[\e[00;37m\]\u@\
 if [ "$color_prompt" = yes ]; then
     export PS1='$(\
       if [ $? = 0 ]; then \
@@ -30,7 +32,6 @@ if [ "$color_prompt" = yes ]; then
       else \
           echo "\[\e[31m\]✘"; \
       fi) \
-\[\e[00;37m\]\u@\
 \[\e[00;33m\]\h\
 \[\e[00;34m\][\[\e[04;34m\]\W\[\e[00;34m\]]\
 $(\
