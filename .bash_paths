@@ -24,3 +24,5 @@ pathmunge "$HOME/.cargo/bin"
 pathmunge "/usr/local/sbin"
 
 export PATH
+
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'

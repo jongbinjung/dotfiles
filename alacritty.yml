@@ -1,0 +1,204 @@
+env:
+  TERM: screen-256color
+
+window:
+  # Window decorations
+  #
+  # Available values:
+  # - full: borders and title bar
+  # - none: neither borders nor title bar
+  # - transparent: title bar, transparent background and title bar buttons
+  # - buttonless: title bar, transparent background, but no title bar buttons
+  decorations: none
+
+# Background opacity
+background_opacity: 1.0
+
+font:
+  size: 16.0
+  normal:
+    family: Inconsolata Nerd Font
+
+# Color schemes
+schemes:
+  nord: &nord
+     # Default colors
+     primary:
+       background: '#2E3440'
+       foreground: '#D8DEE9'
+
+     # Normal colors
+     normal:
+       black:   '#3B4252'
+       red:     '#BF616A'
+       green:   '#A3BE8C'
+       yellow:  '#EBCB8B'
+       blue:    '#81A1C1'
+       magenta: '#B48EAD'
+       cyan:    '#88C0D0'
+       white:   '#E5E9F0'
+
+     # Bright colors
+     bright:
+       black:   '#4C566A'
+       red:     '#BF616A'
+       green:   '#A3BE8C'
+       yellow:  '#EBCB8B'
+       blue:    '#81A1C1'
+       magenta: '#B48EAD'
+       cyan:    '#8FBCBB'
+       white:   '#ECEFF4'
+
+  solarized-light: &solarized-light
+    # Default colors
+    primary:
+      background: '#fdf6e3' # base3
+      foreground: '#657b83' # base00
+
+    # Cursor colors
+    cursor:
+      text:   '#fdf6e3' # base3
+      cursor: '#657b83' # base00
+
+    # Normal colors
+    normal:
+      black:   '#073642' # base02
+      red:     '#dc322f' # red
+      green:   '#859900' # green
+      yellow:  '#b58900' # yellow
+      blue:    '#268bd2' # blue
+      magenta: '#d33682' # magenta
+      cyan:    '#2aa198' # cyan
+      white:   '#eee8d5' # base2
+
+    # Bright colors
+    bright:
+      black:   '#002b36' # base03
+      red:     '#cb4b16' # orange
+      green:   '#586e75' # base01
+      yellow:  '#657b83' # base00
+      blue:    '#839496' # base0
+      magenta: '#6c71c4' # violet
+      cyan:    '#93a1a1' # base1
+      white:   '#fdf6e3' # base3
+
+  solarized-dark: &solarized-dark
+    # Default colors
+    primary:
+      background: '#002b36' # base03
+      foreground: '#839496' # base0
+
+    # Cursor colors
+    cursor:
+      text:   '#002b36' # base03
+      cursor: '#839496' # base0
+
+    # Normal colors
+    normal:
+      black:   '#073642' # base02
+      red:     '#dc322f' # red
+      green:   '#859900' # green
+      yellow:  '#b58900' # yellow
+      blue:    '#268bd2' # blue
+      magenta: '#d33682' # magenta
+      cyan:    '#2aa198' # cyan
+      white:   '#eee8d5' # base2
+
+    # Bright colors
+    bright:
+      black:   '#002b36' # base03
+      red:     '#cb4b16' # orange
+      green:   '#586e75' # base01
+      yellow:  '#657b83' # base00
+      blue:    '#839496' # base0
+      magenta: '#6c71c4' # violet
+      cyan:    '#93a1a1' # base1
+      white:   '#fdf6e3' # base3
+
+  iceberg-dark: &iceberg-dark
+    # Default colors
+    primary:
+      background: '#161821'
+      foreground: '#d2d4de'
+
+    # Normal colors
+    normal:
+      black:   '#161821'
+      red:     '#e27878'
+      green:   '#b4be82'
+      yellow:  '#e2a478'
+      blue:    '#84a0c6'
+      magenta: '#a093c7'
+      cyan:    '#89b8c2'
+      white:   '#c6c8d1'
+
+    # Bright colors
+    bright:
+      black:   '#6b7089'
+      red:     '#e98989'
+      green:   '#c0ca8e'
+      yellow:  '#e9b189'
+      blue:    '#91acd1'
+      magenta: '#ada0d3'
+      cyan:    '#95c4ce'
+      white:   '#d2d4de'
+
+  inceberg-light: &iceberg-light
+    # Default colors
+    primary:
+      background: '0xe8e9ec'
+      foreground: '0x33374c'
+
+    # Normal colors
+    normal:
+      black:   '0xdcdfe7'
+      red:     '0xcc517a'
+      green:   '0x668e3d'
+      yellow:  '0xc57339'
+      blue:    '0x2d539e'
+      magenta: '0x7759b4'
+      cyan:    '0x3f83a6'
+      white:   '0x33374c'
+
+    # Bright colors
+    bright:
+      black:   '0x8389a3'
+      red:     '0xcc3768'
+      green:   '0x598030'
+      yellow:  '0xb6662d'
+      blue:    '0x22478e'
+      magenta: '0x6845ad'
+      cyan:    '0x327698'
+      white:   '0x262a3f'
+
+colors: *iceberg-dark
+
+# If this is `true`, the cursor is temporarily hidden when typing
+hide_when_typing: true
+
+cursor:
+  # Cursor style
+  #
+  # Values for 'style':
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  unfocused_hollow: true
+
+key_bindings:
+  # Alt-bindings in macOS are broken alacritty
+  - { key: Key1, mods: Alt, chars: "\x1b1"  }
+  - { key: Key2, mods: Alt, chars: "\x1b2"  }
+  - { key: Key3, mods: Alt, chars: "\x1b3"  }
+  - { key: Key4, mods: Alt, chars: "\x1b4"  }
+  - { key: Key5, mods: Alt, chars: "\x1b5"  }
+  - { key: Key6, mods: Alt, chars: "\x1b6"  }
+  - { key: Key7, mods: Alt, chars: "\x1b7"  }
+  - { key: Key8, mods: Alt, chars: "\x1b8"  }
+  - { key: Key9, mods: Alt, chars: "\x1b9"  }
+  - { key: F,    mods: Alt, chars: "\x1bf"  }
+  - { key: B,    mods: Alt, chars: "\x1bb"  }
