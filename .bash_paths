@@ -22,6 +22,7 @@ pathmunge "$HOME/bin"
 pathmunge "$HOME/.local/bin"
 pathmunge "$HOME/.cargo/bin"
 pathmunge "/usr/local/sbin"
+pathmunge "/opt/uber/bin"
 
 export PATH
 
