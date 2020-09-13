@@ -14,7 +14,8 @@ fi
 # Navigation aliases
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
-alias open='xdg-open'
+alias cdu='cd $UBER_HOME'
+alias cde='cd $HOME/repos/everything/eats-pricing-modeling'
 
 function bd {
   # navigate to any parent directory by name
@@ -38,7 +39,7 @@ function bd {
 }
 
 # ls aliases
-alias ll='ls -lv --group-directories-first'
+alias ll='ls -lhv'
 alias la='ll -A'
 alias l='ls -CF'
 alias lg='ls -la | grep'
@@ -47,13 +48,13 @@ alias lg='ls -la | grep'
 alias gj='git pull'
 alias gk='git push'
 alias gd='git diff'
-alias gl='git log'
+alias gl='git log --decorate-refs-exclude=tags'
 
 # Others
 alias echo='echo -e'
 
 # ipython should never auto-indent
-alias ipython='ipython --no-autoindent'
+# alias ipython='ipython --no-autoindent'
 
 alias path='echo -e ${PATH//:/\\n}'
 

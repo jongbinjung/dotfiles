@@ -32,7 +32,7 @@ if [ "$color_prompt" = yes ]; then
       else \
           echo "\[\e[31m\]✘"; \
       fi) \
-\[\e[00;33m\]\h\
+\[\e[00;37m\]\u\
 \[\e[00;34m\][\[\e[04;34m\]\W\[\e[00;34m\]]\
 $(\
 if [[ \
@@ -55,12 +55,12 @@ __git_ps1 "(%s)\[\e[00m\]") \
 \n\[\e[01;34m\]$ \[\e[0m\]\
 '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@uber:\w\$ '
 fi
 
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@uber: \w\a\]$PS1"
     ;;
 *)
     ;;
