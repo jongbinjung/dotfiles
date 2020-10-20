@@ -1,3 +1,6 @@
 [submodule "plymouth-theme-jijicat"]
 	path = plymouth-theme-jijicat
 	url = git@github.com:jongbinjung/plymouth-theme-jijicat.git
+[submodule "pip-bash-completion"]
+	path = pip-bash-completion
+	url = git://github.com/brunobeltran/pip-bash-completion.git
