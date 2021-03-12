@@ -9,7 +9,7 @@ do
     Yes )
       ln -sf "$BASE_DIR/zsh/alias.zsh" "$ZSH_CUSTOM/alias.zsh"
       ln -sf "$BASE_DIR/zsh/path.zsh" "$ZSH_CUSTOM/path.zsh"
-      ln -sf "$BASE_DIR/.p10k.zsh" "$ZSH_CUSTOM/path.zsh"
+      ln -sf "$BASE_DIR/.p10k.zsh" "$HOME/.p10k.zsh"
       ln -sf "$BASE_DIR/.taskrc" "$HOME/.taskrc"
       ln -sf "$BASE_DIR/.Xmodmap" "$HOME/.Xmodmap"
       ln -sf "$BASE_DIR/.tmux.conf" "$HOME/.tmux.conf"
