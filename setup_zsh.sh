@@ -28,4 +28,18 @@ if [[ ! -d "$HOME/.tmux/plugins/tpm" ]]; then
   echo "Do prefix + I in tmux to initialize tmux plugins."
 fi
 
+echo "Setup pyenv?"
+select yn in "Yes" "No"
+do
+  case $yn in
+    Yes )
+      curl https://pyenv.run | bash
+      break ;;
+    No)
+      exit ;;
+  esac
+done
+
+echo "Restart your shell for all paths to take effect"
+
 unset BASE_DIR
