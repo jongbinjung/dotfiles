@@ -50,6 +50,12 @@ alias gk='git push'
 alias gd='git diff'
 alias gl='git log --decorate-refs-exclude=tags'
 
+# Graphite (gt) aliases
+alias gca='gt commit ammend'
+alias grs='gt repo sync'
+alias gsf='gt stack fix'
+alias gss='gt stack submit'
+
 # Others
 alias echo='echo -e'
 
