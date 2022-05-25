@@ -51,10 +51,13 @@ alias gd='git diff'
 alias gl='git log --decorate-refs-exclude=tags'
 
 # Graphite (gt) aliases
-alias gca='gt commit ammend'
+alias gbu='gt branch up'
+alias gbd='gt branch down'
+alias gca='gt commit amend'
 alias grs='gt repo sync'
 alias gsf='gt stack fix'
 alias gss='gt stack submit'
+alias gtl='gt log'
 
 # Others
 alias echo='echo -e'
