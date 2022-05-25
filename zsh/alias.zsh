@@ -59,6 +59,9 @@ alias gsf='gt stack fix'
 alias gss='gt stack submit'
 alias gtl='gt log'
 
+# Pretty Json (or Paste Json)
+alias pj='pbpaste | jq | vim -c "set filetype=json" -'
+
 # Others
 alias echo='echo -e'
 
