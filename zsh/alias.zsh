@@ -55,7 +55,7 @@ alias gbu='gt branch up'
 alias gbd='gt branch down'
 alias gca='gt commit amend'
 alias grs='gt repo sync'
-alias gsf='gt stack fix'
+alias gsr='gt stack restack'
 alias gss='gt stack submit'
 alias gtl='gt log'
 
@@ -82,3 +82,5 @@ alias fll='fileutil ls -l -h'
 alias fla='fll -a'
 alias fcp='fileutil cp'
 alias fcat='fileutil cat'
+
+alias ispark="PYSPARK_DRIVER_PYTHON=ipython pyspark"
