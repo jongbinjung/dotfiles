@@ -2,6 +2,8 @@
 BASE_DIR=$PWD
 
 # Create symlink for necessary dotfiles
+echo BASE_DIR=$BASE_DIR
+echo ZSH_CUSTOM=$ZSH_CUSTOM
 echo "Setup all aliases?"
 select yn in "Yes" "No"
 do
