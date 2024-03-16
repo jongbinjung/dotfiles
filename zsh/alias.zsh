@@ -49,7 +49,7 @@ alias gj='git pull'
 alias gk='git push'
 alias gd='git diff'
 alias gl='git log --decorate-refs-exclude=tags'
-alias gkf='git push --force'
+alias gkf='git push --force-with-lease'
 alias gca='git commit --amend'
 
 # Graphite (gt) aliases
