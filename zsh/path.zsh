@@ -23,6 +23,7 @@ pathmunge "$HOME/.local/bin"
 pathmunge "$HOME/.cargo/bin"
 pathmunge "/usr/local/sbin"
 pathmunge "/opt/uber/bin"
+pathmunge "/Applications/MuseScore 4.app/Contents/MacOS"
 
 export PATH
 
