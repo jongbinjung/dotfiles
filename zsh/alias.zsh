@@ -85,3 +85,7 @@ alias fcp='fileutil cp'
 alias fcat='fileutil cat'
 
 alias ispark="PYSPARK_DRIVER_PYTHON=ipython pyspark"
+
+# uv aliases
+alias ipy="uv run ipython"
+alias jpy="uv run jupyter lab"
