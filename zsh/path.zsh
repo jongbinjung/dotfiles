@@ -19,11 +19,11 @@ export MYGO=$GOPATH/src/github.com/jongbinjung
 pathmunge "$GOPATH/bin"
 pathmunge "$HOME/repos/scripts"
 pathmunge "$HOME/bin"
-pathmunge "$HOME/.local/bin"
 pathmunge "$HOME/.cargo/bin"
 pathmunge "/usr/local/sbin"
 pathmunge "/opt/uber/bin"
 pathmunge "/Applications/MuseScore 4.app/Contents/MacOS"
+pathmunge "$HOME/.local/bin"
 
 export PATH
 
