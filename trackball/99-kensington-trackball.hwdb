@@ -1,0 +1,6 @@
+# Copy (or symlink) to /etc/udev/hwdb.d/* and run
+#  sudo systemd-hwdb update
+#  sudo udevadm trigger
+evdev:name:Kensington Expert Wireless TB Mouse:*
+  KEYBOARD_KEY_90003=btn_side   # Treated as "previous"
+  KEYBOARD_KEY_90004=btn_extra  # Treated as "next"
