@@ -3,30 +3,30 @@
 -- https://wiki.hypr.land/Configuring/Start/
 
 -- MONITORS
-require("hyprland.monitors")
+require("modules.monitors")
 
 -- AUTOSTART
-require("hyprland.autostart")
+require("modules.autostart")
 
 -- ENVIRONMENT VARIABLES
-require("hyprland.envvars")
+require("modules.envvars")
 
 -- PERMISSIONS
-require("hyprland.permissions")
+require("modules.permissions")
 
 
 -- LOOK AND FEEL
-require("hyprland.look_and_feel")
+require("modules.look_and_feel")
 
 
 -- MISC
-require("hyprland.misc")
+require("modules.misc")
 
 -- INPUT
-require("hyprland.input")
+require("modules.input")
 
 -- KEYBINDINGS
-require("hyprland.keybindings")
+require("modules.keybindings")
 
 -- WINDOWS AND WORKSPACES
-require("hyprland.windowrules")
+require("modules.windowrules")
