@@ -78,6 +78,9 @@ for key, direction in pairs(directions) do
     hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ direction = direction }))
 end
 
+hl.bind(modCtrl .. " + H", hl.dsp.focus({ workspace = "e-1" }))
+hl.bind(modCtrl .. " + L", hl.dsp.focus({ workspace = "e+1" }))
+
 -- Move window with mainMod + ALT + HJKL
 for key, direction in pairs(directions) do
     hl.bind(modAlt .. " + " .. key, hl.dsp.window.move({ direction = direction }))
