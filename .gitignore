@@ -1,6 +1,7 @@
 .DS_Store
 krb5.conf
 *.swp
+.venv/
 
 # tmux plugins are managed via tpm
 .config/tmux/plugins

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run
 """Select a desktop color scheme and generate native palette adapters."""
 
 from __future__ import annotations
