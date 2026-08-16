@@ -1,11 +1,4 @@
-@import url('../../.cache/wal/colors-waybar.css');
-@define-color mpris-album-art-overlay alpha(@background, 0.55);
-@define-color mpris-button-hover alpha(@background, 0.50);
-@define-color text @color15;
-@define-color bg alpha(@background,.5);
-@define-color bg-hover alpha(@background,.8);
-@define-color mycolor @color9;
-@define-color border-color alpha(@mycolor, 0.15);
+@import url("colors.generated.css");
 
 @keyframes fadeIn{
 0% {
@@ -88,20 +81,20 @@
 
 .control-center .notification-row .notification-background .notification.critical .notification-content,
 .floating-notifications.background .notification-background .notification.critical .notification-content {
-    background-color: #ffb4a9;
+    background-color: @error;
 
 }
 
 .control-center .notification-row .notification-background .notification.critical .notification-content image,
 .floating-notifications.background .notification-background .notification.critical .notification-content image{
     background-color: unset;
-    color: #ffb4a9;
+    color: @error;
 
 }
 
 .control-center .notification-row .notification-background .notification.critical .notification-content label,
 .floating-notifications.background .notification-background .notification.critical .notification-content label {
-    color: #680003;
+    color: @surface;
 
 }
 .notification-content{
@@ -188,7 +181,7 @@
     font-size: initial;
     color: @text;
     text-shadow: none;
-    background: rgba(255,85,85,.3);
+    background: alpha(@accent,.3);
     border: none;
     box-shadow: none;
     border-radius: 12px;
@@ -356,4 +349,3 @@ trough slider:hover {
     margin: 8px;
     border-radius: 12px;
 }
-

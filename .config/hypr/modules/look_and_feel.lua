@@ -1,3 +1,5 @@
+local palette = require("modules.palette_generated")
+
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     general = {
@@ -7,8 +9,11 @@ hl.config({
         border_size = 2,
 
         col = {
-            active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45},
-            inactive_border = "rgba(595959aa)",
+            active_border = {
+                colors = {"rgba(" .. palette.accent .. "ee)", "rgba(" .. palette.accent_bright .. "ee)"},
+                angle = 45,
+            },
+            inactive_border = "rgba(" .. palette.border_muted .. "aa)",
         },
 
         -- Set to true to enable resizing windows by clicking and dragging on borders and gaps

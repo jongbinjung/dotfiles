@@ -1,0 +1,14 @@
+name = "Solarized Dark"
+
+[colors]
+surface = "002b36"
+surface_secondary = "073642"
+border_muted = "586e75"
+text = "839496"
+text_muted = "657b83"
+accent = "268bd2"
+accent_bright = "2aa198"
+success = "859900"
+warning = "b58900"
+error = "dc322f"
+error_alt = "d33682"

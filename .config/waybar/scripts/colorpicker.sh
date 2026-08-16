@@ -50,7 +50,7 @@ check wl-copy && {
 
 prevColors=$(head -n $((limit - 1)) "$loc/colors")
 
-source ~/.cache/wal/colors.sh && color_preview=$wallpaper
+color_preview=""
 check magick && {
   magick -size 64x64 canvas:"$color" "$loc/color_preview.png"
   color_preview="$loc/color_preview.png"
@@ -58,5 +58,9 @@ check magick && {
 echo "$color" >"$loc/colors"
 echo "$prevColors" >>"$loc/colors"
 sed -i '/^$/d' "$loc/colors"
-notify-send "Color Picker" "This color has been selected: $color" -i $color_preview
+if [[ -n $color_preview ]]; then
+  notify-send "Color Picker" "This color has been selected: $color" -i "$color_preview"
+else
+  notify-send "Color Picker" "This color has been selected: $color"
+fi
 pkill -RTMIN+1 waybar

@@ -1,0 +1,14 @@
+name = "Nord"
+
+[colors]
+surface = "2e3440"
+surface_secondary = "3b4252"
+border_muted = "4c566a"
+text = "d8dee9"
+text_muted = "8f9bb3"
+accent = "81a1c1"
+accent_bright = "88c0d0"
+success = "a3be8c"
+warning = "ebcb8b"
+error = "bf616a"
+error_alt = "b48ead"

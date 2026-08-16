@@ -1,9 +1,4 @@
-@import url('/home/eli/.cache/wal/colors-waybar.css');
-
-@define-color mauve  @color9;
-@define-color red  @color9;
-@define-color lavender  @color7;
-@define-color text  @color7;
+@import url("colors.generated.css");
 @keyframes fadeIn {
     0% {
     }
@@ -25,7 +20,7 @@ window {
     all:unset;
     padding: 20px;
     border-radius: 0px;
-    background-color: alpha(@background,.5);
+    background-color: alpha(@surface,.5);
 }
 #inner-box {
     margin: 2px;
@@ -51,11 +46,11 @@ window {
     color: @text;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
     border-radius:10;
-    background-color: alpha(@background,.2);
+    background-color: alpha(@surface,.2);
 }
 #input image {
     border: none;
-    color: @red;
+    color: @error;
 }
 #input * {
     border: none;
@@ -79,19 +74,18 @@ window {
 }
 #entry arrow {
     border: none;
-    color: @lavender;
+    color: @accent_bright;
 
 }
 #entry:selected {
     padding: 30;
     border: none;
     border-radius: 20px;
-    background-color: alpha(@background,.2);
+    background-color: alpha(@surface,.2);
 }
 #entry:selected #text {
-    color: @mauve;
+    color: @accent;
 }
 #entry:drop(active) {
-    background-color: @lavender !important;
+    background-color: @accent_bright !important;
 }
-
