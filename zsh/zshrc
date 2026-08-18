@@ -1,0 +1,12 @@
+# Repository-managed Zsh entry point.
+
+ZSH_CONFIG_DIR=${${(%):-%x}:A:h}
+source "$ZSH_CONFIG_DIR/alias.zsh"
+source "$ZSH_CONFIG_DIR/path.zsh"
+[[ -r "$HOME/.config/dotfiles/zsh/local.zsh" ]] && source "$HOME/.config/dotfiles/zsh/local.zsh"
+
+if (( $+commands[pyenv] )); then
+  eval "$(pyenv init -)"
+fi
+
+[[ -r "$HOME/.p10k.zsh" ]] && source "$HOME/.p10k.zsh"

@@ -29,6 +29,7 @@ REQUIRED_COLORS = (
     "error",
     "error_alt",
 )
+SCHEME_SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 OUTPUT_PATHS = {
     "hypr_lua": ROOT / ".config/hypr/modules/palette_generated.lua",
     "hyprlock": ROOT / ".config/hypr/palette_generated.conf",
@@ -50,6 +51,8 @@ def load_schemes() -> dict[str, dict]:
     schemes = {}
     for path in sorted(SCHEMES_DIR.glob("*.toml")):
         slug = path.stem
+        if not SCHEME_SLUG.fullmatch(slug):
+            raise ValueError(f"{path.relative_to(ROOT)} has an invalid scheme name")
         data = load_toml(path)
         name = data.get("name")
         colors = data.get("colors")
@@ -196,12 +199,12 @@ $theme_text_media = rgba({rgb_text('text')}, 0.78)
 """
 
     return {
-        CONFIG_PATH: f'scheme = "{slug}"\n',
         OUTPUT_PATHS["hypr_lua"]: hypr_lua,
         OUTPUT_PATHS["hyprlock"]: hyprlock,
         OUTPUT_PATHS["waybar"]: waybar,
         OUTPUT_PATHS["swaync"]: swaync,
         OUTPUT_PATHS["wofi"]: wofi,
+        CONFIG_PATH: f'scheme = "{slug}"\n',
     }
 
 
@@ -210,7 +213,7 @@ def check_outputs(outputs: dict[Path, str]) -> bool:
     for path, expected in outputs.items():
         try:
             actual = path.read_text(encoding="utf-8")
-        except OSError:
+        except (OSError, UnicodeError):
             actual = None
         if actual != expected:
             stale.append(path.relative_to(ROOT))
@@ -261,7 +264,9 @@ def main() -> int:
     args = parse_args()
     try:
         schemes = load_schemes()
-        selected = load_selected_scheme(schemes)
+        selected = None
+        if not args.scheme and not args.list:
+            selected = load_selected_scheme(schemes)
         if args.list:
             for slug in sorted(schemes):
                 marker = " *" if slug == selected else ""
@@ -273,7 +278,10 @@ def main() -> int:
                 raise ValueError(f"unknown scheme {args.scheme!r}; choose from: {choices}")
             selected = args.scheme
         elif not args.check:
+            assert selected is not None
             selected = choose_scheme(schemes, selected)
+        else:
+            assert selected is not None
 
         outputs = render_outputs(selected, schemes[selected])
         if args.check:

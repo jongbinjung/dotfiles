@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 pathmunge () {
   case ":${PATH}:" in
@@ -13,18 +13,18 @@ pathmunge () {
   esac
 }
 
-export GOPATH=$HOME/go
-export MYGO=$GOPATH/src/github.com/jongbinjung
+export GOPATH="$HOME/go"
+export MYGO="$GOPATH/src/github.com/jongbinjung"
 
 pathmunge "$GOPATH/bin"
-pathmunge "$HOME/repos/scripts"
+[[ -d "$HOME/repos/scripts" ]] && pathmunge "$HOME/repos/scripts"
 pathmunge "$HOME/bin"
 pathmunge "$HOME/.cargo/bin"
 pathmunge "/usr/local/sbin"
-pathmunge "/opt/uber/bin"
-pathmunge "/Applications/MuseScore 4.app/Contents/MacOS"
+[[ -d /opt/uber/bin ]] && pathmunge /opt/uber/bin
+[[ -d "/Applications/MuseScore 4.app/Contents/MacOS" ]] && pathmunge "/Applications/MuseScore 4.app/Contents/MacOS"
 pathmunge "$HOME/.local/bin"
 
 export PATH
 
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
+(( $+commands[rg] )) && export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'

@@ -1,9 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 # set colors
-if [ -x /usr/bin/dircolors ]; then
-  #shellcheck disable=SC2015,SC2086
-  test -r "$HOME/.dir_colors" && eval "$(dircolors -b $HOME/.dir_colors)" || eval "$(dircolors -b)"
+if (( $+commands[dircolors] )); then
+  if [[ -r "$HOME/.dir_colors" ]]; then
+    eval "$(dircolors -b "$HOME/.dir_colors")"
+  else
+    eval "$(dircolors -b)"
+  fi
   alias ls='ls --color=auto --group-directories-first -h'
 
   alias grep='grep --color=auto'
@@ -14,8 +17,8 @@ fi
 # Navigation aliases
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
-alias cdu='cd $UBER_HOME'
-alias cde='cd $HOME/repos/everything/eats-pricing-modeling'
+[[ -n ${UBER_HOME:-} ]] && alias cdu='cd "$UBER_HOME"'
+[[ -d "$HOME/repos/everything/eats-pricing-modeling" ]] && alias cde='cd "$HOME/repos/everything/eats-pricing-modeling"'
 
 function bd {
   # navigate to any parent directory by name
@@ -34,7 +37,7 @@ function bd {
 
   if [[ "$p" == *"$arg"* ]]; then
     echo "${p%$arg*}$arg"
-    eval "$cmd ${p%$arg*}$arg"
+    "$cmd" "${p%$arg*}$arg"
   fi
 }
 
@@ -62,11 +65,11 @@ alias gss='gt stack submit'
 alias gtl='gt log'
 
 # Pretty Json (or Paste Json)
-alias pj='pbpaste | jq | vim -c "set filetype=json" -'
+if (( $+commands[pbpaste] && $+commands[jq] && $+commands[vim] )); then
+  alias pj='pbpaste | jq | vim -c "set filetype=json" -'
+fi
 
 # Others
-alias echo='echo -e'
-
 alias path='echo -e ${PATH//:/\\n}'
 
 # count lines of file

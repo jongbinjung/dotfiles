@@ -1,4 +1,4 @@
-.PHONY: help init theme
+.PHONY: help init bootstrap theme check
 
 ## Show available targets.
 help:
@@ -12,9 +12,19 @@ init:
 	fi; \
 	uv sync
 
+## Install packages and deploy shared configuration.
+bootstrap:
+	@scripts/bootstrap.sh $(ARGS)
+
 ## Select a desktop color scheme and reload the desktop components.
 theme:
 	uv run scripts/generate_theme.py
 	hyprctl reload config-only
 	@if pgrep -x waybar >/dev/null; then pkill -SIGUSR2 -x waybar; fi
 	@swaync-client -rs
+
+## Run static checks that do not require a desktop session.
+check:
+	bash -n scripts/*.sh
+	zsh -n scripts/setup_zsh.sh zsh/*.zsh
+	uv run scripts/generate_theme.py --check

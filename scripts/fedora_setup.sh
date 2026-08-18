@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
+set -Eeuo pipefail
 
-# Author: jongbin
-# Description: Stuff to set up a Fedora system
-
-# Created: 2025-09-24
-
-# fcitx5 for multiplingual input
-sudo dnf install fcitx5-hangul
-
-# https://github.com/snyball/Hawck
-#
-# cliphist
-go install go.senan.xyz/cliphist@latest
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)
+exec "$SCRIPT_DIR/bootstrap.sh" --profile fedora-desktop "$@"
