@@ -1,0 +1,11 @@
+_bd() {
+  local curr p opts
+  curr="${COMP_WORDS[COMP_CWORD]}"
+  if [[ $COMP_CWORD == 1 ]]; then
+    p=$(pwd)
+    opts="${p//\// }"
+    COMPREPLY=($(compgen -W "${opts}" -- ${curr}))
+  fi
+  return 0
+}
+complete -o nospace -F _bd bd

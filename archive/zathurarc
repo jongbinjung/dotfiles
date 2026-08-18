@@ -1,0 +1,3 @@
+set guioptions ""
+set selection-clipboard "primary"
+set selection-notification false

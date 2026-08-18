@@ -1,0 +1,68 @@
+inc 20170203T022347Z - 20170203T022359Z # "Read A Cognitive Interpretation of Data Analysis" thesis
+inc 20170203T024214Z - 20170203T024238Z # "Read A Cognitive Interpretation of Data Analysis" proj:thesis
+inc 20170203T173652Z - 20170203T204303Z # "Plot relationship between features and leaks" proj:gasleaks
+inc 20170203T211454Z - 20170203T211928Z # "Fill form for Google Internship" proj:other
+inc 20170203T235716Z - 20170204T000810Z # "Fill form for Google Internship" proj:other
+inc 20170205T033742Z - 20170205T040620Z # "Update lecture code examples" proj:teaching
+inc 20170206T192021Z - 20170206T200038Z # "Write lecture code for week 6" proj:teaching
+inc 20170206T211809Z - 20170206T212146Z # "Submit CA application"
+inc 20170206T230408Z - 20170206T231536Z # Email
+inc 20170206T231555Z - 20170206T233225Z # "Run out-of-sample SLIM" proj:heuristics
+inc 20170206T233535Z - 20170207T005255Z # "Run out-of-sample SLIM" proj:heuristics
+inc 20170207T010000Z - 20170207T014522Z # "Write lecture code for week 6" proj:teaching
+inc 20170207T180949Z - 20170207T182054Z # "Compile and aggregate results from out-of-sample SLIM" proj:heuristics
+inc 20170207T182340Z - 20170207T182721Z # "Write lecture code for week 6" proj:teaching
+inc 20170207T182909Z - 20170207T184425Z # "Write lecture code for week 6" proj:teaching
+inc 20170207T200529Z - 20170207T202158Z # "Generate SLIM on DANY" proj:heuristics
+inc 20170207T205837Z - 20170207T211049Z # "Generate SLIM on DANY" proj:heuristics
+inc 20170207T211311Z - 20170208T011931Z # "Clean features generation pipeline" proj:gasleaks
+inc 20170208T180224Z - 20170208T185417Z # "Generate SLIM on DANY" proj:heuristics
+inc 20170208T195218Z - 20170208T195833Z # "Read through Rudin SLIM paper" proj:heuristics
+inc 20170208T212429Z - 20170208T214145Z # "Read through Rudin SLIM paper" proj:heuristics
+inc 20170208T214354Z - 20170208T221045Z # "Setup editorconfig for projects" proj:tooling
+inc 20170208T221125Z - 20170208T222349Z # "Google analytics for jongbin.com" blog proj:personal webadmin
+inc 20170208T222431Z - 20170208T224052Z # "Gelman and Hill" proj:reading
+inc 20170208T230229Z - 20170209T001556Z # "Organize the works of Gigerenzer" proj:thesis
+inc 20170209T164215Z - 20170209T184546Z # "Read up on simple rules" proj:heuristics
+inc 20170209T184629Z - 20170209T200008Z # "Work on single datasets for SLIM AUC etc" proj:heuristics
+inc 20170209T203318Z - 20170209T213326Z # "Work on single datasets for SLIM AUC etc" proj:heuristics
+inc 20170209T222138Z - 20170209T224004Z # "Work on single datasets for SLIM AUC etc" proj:heuristics
+inc 20170210T183444Z - 20170210T194557Z # "Clean features generation pipeline" proj:gasleaks
+inc 20170210T201456Z - 20170210T201602Z # "Compile and aggregate results from out-of-sample SLIM" proj:heuristics
+inc 20170210T203943Z - 20170210T221655Z # "Compile and aggregate results from out-of-sample SLIM" proj:heuristics
+inc 20170210T221655Z - 20170210T232858Z # "Write-up column for related work simple rules and bail work causal inference" proj:heuristics
+inc 20170213T211958Z - 20170213T224231Z # "Fix plots text sizes and margins" proj:heuristics
+inc 20170213T231809Z - 20170213T231841Z # "Write lecture code for week 7" proj:teaching
+inc 20170213T231841Z - 20170213T232845Z # "Solution for hw5" proj:teaching
+inc 20170214T181147Z - 20170214T181752Z # "Initial model for strokes" proj:thesis
+inc 20170214T181801Z - 20170214T182636Z # "Solution for hw5" proj:teaching
+inc 20170214T182636Z - 20170214T185442Z # "Initial model for strokes" proj:thesis
+inc 20170214T213933Z - 20170215T003542Z # "Check for discontinuity to determine amplitude cutoff" proj:gasleaks
+inc 20170215T200038Z - 20170215T223655Z # "Initial model for strokes" proj:thesis
+inc 20170215T232306Z - 20170215T233457Z # "Defining Insight for Visual Analytics" paper proj:reading visualization
+inc 20170216T182451Z - 20170216T184227Z # "Update KDD submission" proj:heuristics
+inc 20170216T191523Z - 20170216T195603Z # "Update KDD submission" proj:heuristics
+inc 20170216T200203Z - 20170216T200521Z # "Update KDD submission" proj:heuristics
+inc 20170216T201040Z - 20170216T202226Z # "Update arXiv submission" proj:heuristics
+inc 20170216T202233Z - 20170216T204122Z # "Submit to SSRN" proj:heuristics
+inc 20170221T182012Z - 20170221T185436Z # "Read Hohnhold on longterm focus" proj:reading
+inc 20170221T192231Z - 20170221T192915Z # "Read Hohnhold on longterm focus" proj:reading
+inc 20170221T193847Z - 20170221T200341Z # "Read Hohnhold on longterm focus" proj:reading
+inc 20170221T204731Z - 20170221T205413Z # "Write lecture code for week 8" proj:teaching
+inc 20170221T205809Z - 20170221T210644Z # "Respond to meeting emails" proj:heurstics
+inc 20170221T211104Z - 20170221T215948Z # "Kleinberg paper" proj:reading
+inc 20170221T224933Z - 20170222T002728Z # "Investigate more features" proj:gasleaks
+inc 20170222T002737Z - 20170222T005818Z # "Kleinberg paper" proj:reading
+inc 20170222T005837Z - 20170222T011003Z # "Schedule meeting with Ron" proj:strokes
+inc 20170222T224801Z - 20170222T225741Z # "Gelman on type S and type M errors" proj:reading
+inc 20170222T230821Z - 20170222T231008Z # "Add wind_speed x ch4" proj:gasleaks
+inc 20170222T231011Z - 20170222T235005Z # "Gelman on type S and type M errors" proj:reading
+inc 20170223T013927Z - 20170223T020904Z # "Explore partial pooling/heirarchical modelling for multiple passes" proj:gasleaks
+inc 20170223T212106Z - 20170223T213544Z # "Go through stroke papers via Prasha" proj:strokes
+inc 20170224T190435Z - 20170224T190439Z # "Go through stroke papers via Prasha" proj:strokes
+inc 20170224T190441Z - 20170224T195505Z # "Write methodology paragraph for Spectrum Grant" proj:medical
+inc 20170224T195638Z - 20170224T214152Z # "Investigate more features" proj:gasleaks
+inc 20170227T213101Z - 20170227T230103Z # "Investigate more features" proj:gasleaks
+inc 20170228T215321Z - 20170228T222743Z # "Check updated performance with full data" proj:gasleaks
+inc 20170228T223737Z - 20170228T223741Z # "Collect readings for data analysis" proj:thesis
+inc 20170228T223744Z - 20170301T004118Z # "Check updated performance with full data" proj:gasleaks

@@ -5,10 +5,12 @@
 
   "modules-left": [
     "custom/notification",
-    "clock"
+    "hyprland/workspaces"
   ],
 
-  "modules-center": ["hyprland/workspaces"],
+  "modules-center": [
+    "clock"
+  ],
 
   "modules-right": [
     "group/expand",
