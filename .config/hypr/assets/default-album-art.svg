@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e3440"/>
+      <stop offset="1" stop-color="#3b4252"/>
+    </linearGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#88c0d0"/>
+      <stop offset="1" stop-color="#5e81ac"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="56" fill="url(#background)"/>
+  <circle cx="256" cy="256" r="158" fill="url(#disc)" opacity="0.92"/>
+  <circle cx="256" cy="256" r="120" fill="none" stroke="#d8dee9" stroke-opacity="0.3" stroke-width="3"/>
+  <circle cx="256" cy="256" r="82" fill="none" stroke="#d8dee9" stroke-opacity="0.22" stroke-width="3"/>
+  <circle cx="256" cy="256" r="24" fill="#2e3440"/>
+  <path d="M276 170 401 145q8-2 8 7v28l-133 25z" fill="#eceff4"/>
+  <rect x="272" y="170" width="20" height="170" fill="#eceff4"/>
+  <rect x="393" y="150" width="16" height="150" fill="#eceff4"/>
+  <ellipse cx="249" cy="340" rx="44" ry="36" transform="rotate(-15 249 340)" fill="#eceff4"/>
+  <ellipse cx="365" cy="300" rx="44" ry="36" transform="rotate(-15 365 300)" fill="#eceff4"/>
+</svg>
