@@ -24,6 +24,11 @@ do
   esac
 done
 
+mkdir -p "$HOME/.local/bin"
+for f in "$BASE_DIR/bin/"*; do
+  [[ -x "$f" ]] && ln -sf "$f" "$HOME/.local/bin/$(basename "$f")"
+done
+
 if [[ ! -d "$HOME/.tmux/plugins/tpm" ]]; then
   git clone https://github.com/tmux-plugins/tpm "$HOME/.tmux/plugins/tpm"
   echo "Installed tmux plugin manager."
