@@ -6,6 +6,7 @@
 hl.env("ELECTRON_OZONE_PLATFORM_HINT", "wayland")
 hl.env("GDK_SCALE", "1.25")
 hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("SSH_AUTH_SOCK", "$XDG_RUNTIME_DIR/ssh-agent.socket")
 
 hl.env("QT_IM_MODULE", "ibus")
 hl.env("QT_IM_MODULES", "wayland;fcitx;ibus")
